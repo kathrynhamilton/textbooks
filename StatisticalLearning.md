@@ -1,5 +1,6 @@
-# Notes: An Introduction to Statistical Learning with Applications in R
+# An Introduction to Statistical Learning with Applications in R
 
+James, Witten, Hastie, Tibshirani
 Kathryn Hamilton - March 2018
 
 ## 1 - Introduction
