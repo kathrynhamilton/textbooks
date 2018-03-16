@@ -5,7 +5,7 @@ Kathryn Hamilton - March 2018
 
 ## 1 - Introduction
 
-Statistical learning is a set of tools for modeling and understanding complex datasets. These tools can be classified as *supervised* or *unsupervised*.
+Statistical learning is a set of tools for modeling and understanding complex datasets. These tools can be classified as **supervised** or **unsupervised**.
 
 Supervised learning predicts an output based on one or more inputs. Unsupervised learning has inputs and no supervised output, but can still be used to learn relationships and structure.
 
@@ -15,7 +15,7 @@ Three example datasets are used throughout this book:
 * `Smarket` - Daily return information of the S&P stock index from 2001 to 2005. The goal is to predict whether the market will increase or decrease on a given day (Classification).
 * `NCI60` - Gene expression data for 64 cancer cell lines. The goal is to determine whether there are groups or clusters among the cell lines based on their expression measurements (Clustering).
 
-There are *R* libraries and datasets available to work through the book's examples and labs on the book's [website](http:/www.StatLearning.com).
+There are **R** libraries and datasets available to work through the book's examples and labs on the book's [website](http:/www.StatLearning.com).
 
 ## 2 - Statistical Learning
 
@@ -25,9 +25,9 @@ For input variables $X_1, X_2, \dots , X_p$ and output response $Y$ we assume th
 
 There are two reasons to estimate $f$: prediction and inference.
 
-In situations where $X$ is readily available but $Y$ is not, we can *predict* $Y$ using an estimate of $f$: $\hat{Y} = \hat(f)(X)$. In general, $\hat{f}$ is not a perfect estimate for $f$ because it cannot predict the irreducible error $\epsilon$. Here we can treat $\hat{f}$ as a black box.
+In situations where $X$ is readily available but $Y$ is not, we can **predict** $Y$ using an estimate of $f$: $\hat{Y} = \hat(f)(X)$. In general, $\hat{f}$ is not a perfect estimate for $f$ because it cannot predict the irreducible error $\epsilon$. Here we can treat $\hat{f}$ as a black box.
 
-In other situations, we are interested in understanding the way that $Y$ is affected as $X$ changes. This is called *inference*. We still need to estimate $f$ but cannot treat $\hat{f} as a black box as we are interested in understanding the relationship between $X$ and $Y$ as opposed to predicting $Y$. We may want to know:
+In other situations, we are interested in understanding the way that $Y$ is affected as $X$ changes. This is called **inference**. We still need to estimate $f$ but cannot treat $\hat{f}$ as a black box as we are interested in understanding the relationship between $X$ and $Y$ as opposed to predicting $Y$. We may want to know:
 
 * Which predictors are most strongly associated to the response?
 * What is the relationship between the response and each predictors?
