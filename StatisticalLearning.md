@@ -1,6 +1,7 @@
 # An Introduction to Statistical Learning with Applications in R
 
 James, Witten, Hastie, Tibshirani
+
 Kathryn Hamilton - March 2018
 
 ## 1 - Introduction
@@ -15,7 +16,7 @@ Three example datasets are used throughout this book:
 * `Smarket` - Daily return information of the S&P stock index from 2001 to 2005. The goal is to predict whether the market will increase or decrease on a given day (Classification).
 * `NCI60` - Gene expression data for 64 cancer cell lines. The goal is to determine whether there are groups or clusters among the cell lines based on their expression measurements (Clustering).
 
-There are **R** libraries and datasets available to work through the book's examples and labs on the book's [website](http:/www.StatLearning.com).
+There are **R** libraries and the above datasets available on the book's [website](http:/www.StatLearning.com) to work through the book's examples and labs.
 
 ## 2 - Statistical Learning
 
