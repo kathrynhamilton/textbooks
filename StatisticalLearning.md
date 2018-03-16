@@ -33,7 +33,17 @@ In other situations, we are interested in understanding the way that $Y$ is affe
 * What is the relationship between the response and each predictors?
 * Which relationships can be summarized using a linear equation? Which are more complicated?
 
-Many problems fall into both of these categories. For example, consider an advertising firm that would like to know which form of media advertising generates the largest boost in sales (inference), and how much of an increase in sales would occur given an advertising increase in that specific media (prediction). The best method for estimating $f$ depends on the goal and what you are trying to achieve.
+Many problems fall into both of these categories. For example, consider an advertising firm that would like to know which form of media advertising generates the largest boost in sales (inference), and how much of an increase in sales would occur given an advertising increase in that specific media (prediction). 
+
+The best method for estimating $f$ depends on the goal and what you are trying to achieve.
+
+Most statistical learning methods can be classified as either **parametric** or **non-parametric**.
+
+Parametric methods first make an assumption about the form of $f$, which typical involves some parameters, and then uses training data to fit the model and thus provide estimate values for each parameter. Assuming a parametric form simplifies the problem of estimating $f$, but can be dangerous if the model chosen does not represent the data sufficiently well.
+
+Non-parametric methods do not make an explicit assumption about the form of $f$. They seek an estimate of $f$ by getting as close to the data as possible while limiting noise and overfitting. The advantage is that they can be fit accuractely to a wide range of possible shapes, thus avoiding the possibility of poor fit. However, solving these types of problems are can be very difficult and the results are often not easy to interpret.
+
+Parsimony, the art of expressing a function as simply as possible yet with sufficient detail, is an important topic in both methods, and is necessary to prevent overfitting.
 
 ### Assessing Model Accuracy
 
