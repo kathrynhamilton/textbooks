@@ -2,7 +2,7 @@
 
 Lisa Cron
 
-## Part One
+## Part One - What a Story Is, and What It Isn't
 
 ## Part Two - Creating the Inside Story
 
@@ -72,9 +72,13 @@ Capture the moment when your protagonist's wold view shifted and their misbelief
 
 If you're not giving your reader a clear, plausible cause-and-effect progression, illuminated by the why behind it, then you're not giving them a story they can follow or care about. If your scenes can be linked with "and then", rather than "therefore" or "but", then you have something quite boring. The protagonist's past is a big part of the novel's opposition.
 
-##### 1. Zero in on three turning point scenes that will yield the most story-specific info, the most important grist for the mill. They should be moments that helped create, perpetuate, and escalate the problem your protagonist will be forced to deal with when your novel starts. Make it a moment in their life where their misbelief was the deciding factor in a major decision that they made and ultimately kept them from fulfilling their deepest desire.
+##### 1. Zero in on three turning point scenes that will yield the most story-specific info, the most important grist for the mill. 
 
-##### 2. Write each scene in chronological order. Aim for scenes as fully fleshed out as the Origin Scene. They don't have to be polished or beautifully written. They just have to capture the escalating turning points in your protagonist's life.
+They should be moments that helped create, perpetuate, and escalate the problem your protagonist will be forced to deal with when your novel starts. Make it a moment in their life where their misbelief was the deciding factor in a major decision that they made and ultimately kept them from fulfilling their deepest desire.
+
+##### 2. Write each scene in chronological order. Aim for scenes as fully fleshed out as the Origin Scene.
+
+They don't have to be polished or beautifully written. They just have to capture the escalating turning points in your protagonist's life.
 
 The story-specific cause-and-effect trajectory began in the Origin Scene and continues with these three (or more) scenes.
 
@@ -84,7 +88,7 @@ The novel should start when life will no longer allow your protagonist to put of
 
 What unavoidable external change will catapult the protagonist into the fray, triggering their internal battle?
 
-##### 1. Do a little free writing about your intended plot. Then extract from that a list of as many ideas for your novel's main problem as possible, even the ones that seem far-fetched.
+##### 1. Do a little free writing about your intended plot. Extract from that a list of as many ideas for your novel's main problem as possible, even the ones that seem far-fetched.
 
 ##### 2. Look through each possibility and ask yourself: can the problem sustain the entire novel from the first page to the last (external test)?
 
@@ -99,8 +103,10 @@ What unavoidable external change will catapult the protagonist into the fray, tr
  
 Keep at it until you have developed one overarching plot problem that leaps over every hurdle and meets both tests. This will probably be a combination of some of the original problems you came up with.
 
-##### 4. Sketch out the ticks that will lead up to your opening scene. Your goal is to find the tick that catapults your protagonist into unavoidable action. Your protagonist must act and must act now.
+##### 4. Sketch out the ticks that will lead up to your opening scene. Find the tick that catapults your protagonist into unavoidable action.
+
+It is typically around the sixth or seventh tick, and will be when your protagonist must act and must act now.
 
 Congratulations! You not only know when your novel starts but you also know why, what's at stake, what it means to your protagonist, and what your novel is about.
 
-## Part Three
+## Part Three - Creating an External Gauntlet to Spur Your Protagonist's Internal Struggle
