@@ -1,6 +1,6 @@
-# Kathryn's Textbook Repo
+# Kathryn's Textbook Repository
 
-This repo contains my annotated notes on various textbooks that I've read.
+This repository contains my annotated notes on various books and textbooks that I've read.
 
 ### Machine Learning
 * An Introduction to Statistical Learning with Applications in R by James, Witten, Hastie, and Tibshirani (Chapters 1-2 of 10)
