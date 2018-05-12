@@ -20,6 +20,8 @@ Scherer Typology of Affective States:
 
 Sentiment analysis detects **attitudes**.
 
+Some common terms:
+
 - Holder (source) of attitude
 - Target (aspect) of attitude
 - Type of attitude (like, love, hate, value, desire, etc. or more simply a weighted polarity of good or bad)
@@ -34,7 +36,7 @@ Kinds of Sentiment Analysis:
 
 Removing nonsubjective phrases can improve the accuracy of a polarity classifier.
 
-**Sentiment Lexicons** assign general sentiment to words outside of context. Some examples are: General Inquirer, LIWC, MPQA, Bing Liu Opinion Lexicon, SentiWordNet. There is a wide range of dissagreement between these lexicons.
+**Sentiment Lexicons** assign general sentiment to words outside of context. Some examples are: *General Inquirer*, *LIWC*, *MPQA*, *Bing Liu Opinion Lexicon*, *SentiWordNet*. There is a wide range of dissagreement between these lexicons.
 
 
 
