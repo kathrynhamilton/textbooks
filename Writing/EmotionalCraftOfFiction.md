@@ -50,3 +50,23 @@ When outward actions elicit emotion, **it is not the actions that have stirred u
 
 ### Inner Mode
 
+If you directly say what the character feels, chances are that the reader will feel nothing. **Readers want feelings that are fresh and unexpected, yet real and true**.
+
+**There are many ways of looking at and feeling about what's happening: humans have very complex emoptions**. Our emotions can be on the surface or underneath. We can minimize, hide, and deny them. Emotions can embarrass us, reveal too much, or make us vulnerable. Emotions can be profoud or trivial. They are biased by our history, morals, and loyalties. **Our feelings are also communal**. We can pick up on others or project feelings on to other. **Our feelings are also dynamic**. They can change in an instant. We can be torn, confused, and frusterated with conflicting feelings. We can be struck, shut down, and apatheric. We can be dead inside or newly alive. We experience awakenings, self-awareness, hope, and joy.
+
+Many, many books offer such a limited menu of emotions.
+
+**A great way to use *inner mode* is to portray a feeling that is unexpected**. Readers are forced to measure the protagonist's emotions against their own.
+
+When using *inner mode*, **make the passage long enough to crate a period of time for the reader to process the emotion**, for example fifteen seconds.
+
+Rather than simply saying what the protagonist feels, **give a discourse on the emotional possibilities and how there is no real alternative**.
+
+**Steps to effective telling**:
+
+1. Select a moment when the protagonist feels something strongly
+2. Ask your protagonist what else they are feeling at that moment
+3. Work with the lower-layer emotions in four ways: create an analogy, make a moral judgment about the feeling, create an alternative, and finally justify the feeling
+4. Add a unique detail that only the protagonist would see, in their own unique way
+5. Write the passage long enough so the reader has time to process and grasp the emotion
+
