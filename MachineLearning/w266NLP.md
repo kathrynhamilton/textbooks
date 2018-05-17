@@ -10,7 +10,7 @@
 
 Sentiment Analysis is computationally identifying and categorizing opinions expressed in a piece of text, especially in order to determine the writer's attitude towards a particular topic.
 
-Reviews are a good way to explore sentiment and text understanding. <br><br>
+Reviews are a good way to explore sentiment and text understanding.
 
 Scherer Typology of Affective States:
 
@@ -20,14 +20,14 @@ Scherer Typology of Affective States:
 - **Attitude**, enduring beliefs towards objects or persons
 - **Personality traits**, stable dispositions and typical behavior
 
-Sentiment analysis detects **attitudes**. <br><br>
+Sentiment analysis detects **attitudes**.
 
 Some common terms:
 
 - **Holder** (source) of attitude
 - **Target** (aspect) of attitude
 - **Type** of attitude (like, love, hate, value, desire, etc. or more simply a weighted polarity of good or bad)
-- **Text** containing attitude <br><br>
+- **Text** containing attitude
 
 Kinds of Sentiment Analysis:
 
@@ -36,7 +36,7 @@ Kinds of Sentiment Analysis:
 - **Feature/aspect task**, associate attitude with a particular aspect (price, ease of use, setup, etc.)
 - **Contextual task**, detect source of attitude
 
-Removing nonsubjective phrases can improve the accuracy of a polarity classifier. <br><br>
+Removing nonsubjective phrases can improve the accuracy of a polarity classifier.
 
 **Sentiment Lexicons** assign general sentiment to words outside of context. They can be used as a mapping of individual words to typical sentiment. Some examples are: *General Inquirer*, *LIWC*, *MPQA*, *Bing Liu Opinion Lexicon*, *SentiWordNet*. There is a wide range of dissagreement between these lexicons.
 
@@ -52,7 +52,7 @@ Additionally, **layering different processes** for example as a neural network, 
 
 <p align="center">
   <img src="https://github.com/kathrynhamilton/textbooks/blob/master/MachineLearning/images/2.8%20image.png" width="500">
-</p> <br><br>
+</p>
 
 ### Readings
 
@@ -67,7 +67,7 @@ Additionally, **layering different processes** for example as a neural network, 
  - context: who is typing, where and when they are typing, what has been typed before
  - phone memory: affects vocabulary size, character sets (some languages have large alphabets)
  - inference speed/latency: needs to be fast enough to be useful
- - internationalization: adapt one model be adapted to multiple languages, allow for multiple languages to be used together <br><br>
+ - internationalization: adapt one model be adapted to multiple languages, allow for multiple languages to be used together
  
  The "correct" word sequence maximizes `P(word sequence | keystrokes)`. Using Bayes rule, this is approximately equivalent to maximizing `P(keystrokes | word sequence) * P(word sequence)`. This is called the **noisy channel model**.
  
