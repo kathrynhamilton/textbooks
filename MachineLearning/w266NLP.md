@@ -92,7 +92,7 @@ Again, we have two models:
  
 #### N-Gram Language Modelling
 
-Language models assign useful (indicating plausibility and not grammaticallity) probabilities `P(x)` to sentences `x`. There is a lot of free text on the internet and from other sources that we can give to these models as training data.
+Language models assign useful (indicating plausibility and not grammaticallity) probabilities `P(x)` to sentences `x`. There is a lot of free text on the internet (corpuses) and from other sources that we can give to these models as training data.
 
 `P(wn) = P(w0) P(w1|w0) P(w2|w1, w0)...P(wn|wn-1,...w0)` has a sparsity restriction. How likely is it that this specific sentence is in the training set?
 
@@ -112,7 +112,28 @@ We could also try character-based N-grams because the vocabulary is very small, 
 
 We don't want to generate fake text. We want generated sentences to improve as we increase order (so long as we don't overfit). A bad sentence doesn't mean ungrammatical. It means an unlikely sentence, a sentence we know is wrong but that the translation model likes.
 
-We can use entropy of the distribution of possible predicted words to measure how good the language model is. An improvement of 0.1 bits is impressive. The solution here is *perplexity*: `perp(X,Θ) = 2^{H(X|Θ)}` where `X` is a sentence and `Θ` is a language model.
+We can use entropy of the distribution of possible predicted words to measure how good the language model is. An improvement of 0.1 bits is impressive. The solution here is *perplexity*: `perp(X,Θ) = 2^{H(X|Θ)}` where `X` is a sentence and `Θ` is a language model. Lower perplexity is better. The best possible perplexity is 1, where entropy would be 0 as there is no uncertainty in the next word.
+
+Extrinisic evaluation is also possible. For example, we might use *word error rate* to assess a speech to text converter. It assesses the difference between a recognized sentence and the true sentence in terms of normalized number of insertions, deletions, and substitutions.
+
+#### Smoothing
+
+We want to make estimates from spare statistics. What if, in the whole corpus, we only have a handful of observations for a certain P(w3|w1,w2)? We smooth by flattening spikey distributions for better generalization. We reduce the amount of probability mass from things that we have seen and distributed it on things that we have not seen.
+
+Typically, we run into the following problems if the corpus is not large enough:
+
+* known words in unknown contexts
+* unknown words
+
+To combat this, we aim to use higher-order n-grams when possible, and lower-oder n-grams when necessary.
+
+**Katz smoothing**: if count of history is less than some threshold, then reduce size of N in N-gram. Can have different thresholds for different N's.
+
+**Interpolation**: use a weighted combination of uni-, bi- and tri-gram probabilities
+
+**Laplace Smoothing**: choose a small number and add it to all of the counts
+
+**Unknowns**: lump n-grams that don't have probability into a single entry called unknown. Or even better, draw an inference from the letters
 
 ### Readings
 
