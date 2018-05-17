@@ -25,9 +25,7 @@ Some common terms:
 - **Holder** (source) of attitude
 - **Target** (aspect) of attitude
 - **Type** of attitude (like, love, hate, value, desire, etc. or more simply a weighted polarity of good or bad)
-- **Text** containing attitude
-
-&nbsp;
+- **Text** containing attitude <br><br>
 
 Kinds of Sentiment Analysis:
 
@@ -36,13 +34,9 @@ Kinds of Sentiment Analysis:
 - **Feature/aspect task**, associate attitude with a particular aspect (price, ease of use, setup, etc.)
 - **Contextual task**, detect source of attitude
 
-Removing nonsubjective phrases can improve the accuracy of a polarity classifier.
+Removing nonsubjective phrases can improve the accuracy of a polarity classifier. <br><br>
 
-&nbsp;
-
-**Sentiment Lexicons** assign general sentiment to words outside of context. They can be used as a mapping of individual words to typical sentiment. Some examples are: *General Inquirer*, *LIWC*, *MPQA*, *Bing Liu Opinion Lexicon*, *SentiWordNet*. There is a wide range of dissagreement between these lexicons.
-
-&nbsp;
+**Sentiment Lexicons** assign general sentiment to words outside of context. They can be used as a mapping of individual words to typical sentiment. Some examples are: *General Inquirer*, *LIWC*, *MPQA*, *Bing Liu Opinion Lexicon*, *SentiWordNet*. There is a wide range of dissagreement between these lexicons. <br><br>
 
 **Convolutional Neural Networks for NLP:**
 
@@ -52,19 +46,48 @@ Additionally, **layering different processes** for example as a neural network, 
 
 **Pooling layers**, such as a maximum layer, are a way to highlight the most relevant information. We can also use convulational filters, which use sliding filters
 
-
 **Activation Function: p = tanh(W\*C + b)** where *tanh* is a nonlinearity, *W* is an NxD parameter matrix, *C* is a Dx1 embedding vector, *b* is a bias term, *N* is the n-gram size, and *D* is the embedding dimention
 
 <p align="center">
   <img src="https://github.com/kathrynhamilton/textbooks/blob/master/MachineLearning/images/2.8%20image.png" width="500">
-</p>
-
+</p> <br><br>
 
 ### Readings
 
 ## 3 - Language Modeling I
 
 ### Course Content
+
+**Noisy Channel model**
+
+ Consider the problem of next word prediction on phone keyboards. We want to estimate `P(word | context)`. Things to consider:
+ 
+ - context: who is typing, where and when they are typing, what has been typed before
+ - phone memory: affects vocabulary size, character sets (some languages have large alphabets)
+ - inference speed/latency: needs to be fast enough to be useful
+ - internationalization: adapt one model be adapted to multiple languages, allow for multiple languages to be used together <br><br>
+ 
+ The "correct" word sequence maximizes `P(word sequence | keystrokes)`. Using Bayes rule, this is equivalent to maximizing `P(keystrokes | word sequence) * P(word sequence)`. This is called the **noisy channel model**.
+ 
+ It turns out we need two models:
+ 
+ 1. *Keystroke model* `P(keystrokes | word sequence)`, which scores letters based on screen taps
+ 2. *Language model* `P(word sequence)`, which scores word sequences based on how realistic they are
+ 
+Now let's look at the model applied to a generic translation problem. The correct English translation given a sequence of words in French maximizes `P(French sequence | English sequence) * P(English sequence)`.
+
+Again, we have two models:
+
+ 1. *Translation model* `P(French sequence | English sequence)`, which scores French translation given an English sequence
+ 2. *Language model* `P(English sequence)`, which scores English sequences based on how realistic they are
+ 
+ The noisy channel model also works for:
+ 
+ * Speech Recognition: `P(audio | words) * P(words)`
+ * Optical character recognition: `P(pixels | words) * P(words)`
+ * Spelling correction: `P(character sequence | word) * P(word)`
+ * Handwriting recognition: `P(pixels | word or letter) * P(word or letter)`
+ * etc. <br><br>
 
 ### Readings
 
