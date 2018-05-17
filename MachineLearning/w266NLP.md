@@ -136,6 +136,14 @@ Some common smoothing methods:
 * **Unknowns**: Lump n-grams that don't have probability into a single entry called unknown. Or even better, draw an inference from the letters
 * **Kneser-Ney**: Considers frequency of unigram in relation to possible words preceding it. It is widely considered the most effective.
 
+Other smoothing ideas:
+
+* **Word classes**: noun, verb, adjective, name, place, animal, etc.
+* **Caching model**: recent words are more likely to appear again.
+* **Trigger/topic model**: some words are triggers for others, or the entire passage relates to a particular topic.
+* **Structural zeros**: some n-grams should never appear, eg. "the the". Gives these P(w) = 0, even for example in Laplace smoothing where we might artifically add probability mass.
+* **Syntactic models**: syntax trees that capture long-range dependencies, ie. conditioning or sentence structure
+
 ### Readings
 
 ## 4 - Clusters and Distributions
