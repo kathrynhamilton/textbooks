@@ -67,27 +67,26 @@ Additionally, **layering different processes** for example as a neural network, 
  - inference speed/latency: needs to be fast enough to be useful
  - internationalization: adapt one model be adapted to multiple languages, allow for multiple languages to be used together <br><br>
  
- The "correct" word sequence maximizes `P(word sequence | keystrokes)`. Using Bayes rule, this is equivalent to maximizing `P(keystrokes | word sequence) * P(word sequence)`. This is called the **noisy channel model**.
+ The "correct" word sequence maximizes `P(word sequence | keystrokes)`. Using Bayes rule, this is approximately equivalent to maximizing `P(keystrokes | word sequence) * P(word sequence)`. This is called the **noisy channel model**.
  
  It turns out we need two models:
  
  1. *Keystroke model* `P(keystrokes | word sequence)`, which scores letters based on screen taps
  2. *Language model* `P(word sequence)`, which scores word sequences based on how realistic they are
  
-Now let's look at the model applied to a generic translation problem. The correct English translation given a sequence of words in French maximizes `P(French sequence | English sequence) * P(English sequence)`.
+Now let's look at the model applied to a generic translation problem. The correct English translation given a sequence of words in French maximizes `P(English Sequence | French sequence) =~ P(French sequence | English sequence) * P(English sequence)`.
 
 Again, we have two models:
 
  1. *Translation model* `P(French sequence | English sequence)`, which scores French translation given an English sequence
  2. *Language model* `P(English sequence)`, which scores English sequences based on how realistic they are
  
- The noisy channel model also works for:
+ The noisy channel model works in many other applications, for example:
  
- * Speech Recognition: `P(audio | words) * P(words)`
- * Optical character recognition: `P(pixels | words) * P(words)`
- * Spelling correction: `P(character sequence | word) * P(word)`
- * Handwriting recognition: `P(pixels | word or letter) * P(word or letter)`
- * etc. <br><br>
+ * Speech Recognition: `P(words | audio) =~ P(audio | words) * P(words)`
+ * Optical character recognition: `P(character | pixels) =~ P(pixels | character) * P(character)`
+ * Spelling correction: `P(word | character sequence) =~ P(character sequence | word) * P(word)`
+ * Handwriting recognition: `P(word or letters | pixels) =~ P(pixels | word or letter) * P(word or letter)`
 
 ### Readings
 
