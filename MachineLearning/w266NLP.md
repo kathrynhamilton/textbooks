@@ -6,7 +6,9 @@
 
 ### Course Content
 
-**Sentiment Analysis**: computationally identifying and categorizing opinions expressed in a piece of text, especially in order to determine the writer's attitude towards a particular topic
+#### Sentiment Analysis
+
+Sentiment Analysis is computationally identifying and categorizing opinions expressed in a piece of text, especially in order to determine the writer's attitude towards a particular topic.
 
 Reviews are a good way to explore sentiment and text understanding. <br><br>
 
@@ -36,9 +38,9 @@ Kinds of Sentiment Analysis:
 
 Removing nonsubjective phrases can improve the accuracy of a polarity classifier. <br><br>
 
-**Sentiment Lexicons** assign general sentiment to words outside of context. They can be used as a mapping of individual words to typical sentiment. Some examples are: *General Inquirer*, *LIWC*, *MPQA*, *Bing Liu Opinion Lexicon*, *SentiWordNet*. There is a wide range of dissagreement between these lexicons. <br><br>
+**Sentiment Lexicons** assign general sentiment to words outside of context. They can be used as a mapping of individual words to typical sentiment. Some examples are: *General Inquirer*, *LIWC*, *MPQA*, *Bing Liu Opinion Lexicon*, *SentiWordNet*. There is a wide range of dissagreement between these lexicons.
 
-**Convolutional Neural Networks for NLP:**
+#### Convolutional Neural Networks for NLP
 
 Combining machine learning models that take different approaches or try to solve different projects is typically a good way to go. You can **create multiple classifiers and weigh their outputs**. 
 
@@ -58,7 +60,7 @@ Additionally, **layering different processes** for example as a neural network, 
 
 ### Course Content
 
-**Noisy Channel model**
+#### Noisy Channel Model
 
  Consider the problem of next word prediction on phone keyboards. We want to estimate `P(word | context)`. Things to consider:
  
@@ -87,6 +89,30 @@ Again, we have two models:
  * Optical character recognition: `P(character | pixels) =~ P(pixels | character) * P(character)`
  * Spelling correction: `P(word | character sequence) =~ P(character sequence | word) * P(word)`
  * Handwriting recognition: `P(word or letters | pixels) =~ P(pixels | word or letter) * P(word or letter)`
+ 
+#### N-Gram Language Modelling
+
+Language models assign useful (indicating plausibility and not grammaticallity) probabilities `P(x)` to sentences `x`. There is a lot of free text on the internet and from other sources that we can give to these models as training data.
+
+`P(wn) = P(w0) P(w1|w0) P(w2|w1, w0)...P(wn|wn-1,...w0)` has a sparsity restriction. How likely is it that this specific sentence is in the training set?
+
+So we use the Markov assumption, knowing that it is wrong, to make an estimation:
+
+* Unigram: `P(w1, w2,..., wn) = Π P(wi)`
+* Bigram: `P(w1, w2,..., wn) = Π P(wi|wi-1)`
+* Trigram: `P(w1, w2,..., wn) = Π P(wi|wi-1, wi-2)`
+
+Unigram models are not great because `P(the the the the)` is greater than basically all other probabilities. 
+
+Word-based Language models can be very large; the average adult english vocabulary is 30k words. Word-based N-grams that require a high N, to look back at previous words for context, are computationally intensive.
+
+We could also try character-based N-grams because the vocabulary is very small, A to Z. This might also work well with small morphological components like -ing, -ed, etc. However, character-based N-grams are not good at predicting the next word.
+
+#### Measuring Quality
+
+We don't want to generate fake text. We want generated sentences to improve as we increase order (so long as we don't overfit). A bad sentence doesn't mean ungrammatical. It means an unlikely sentence, a sentence we know is wrong but that the translation model likes.
+
+We can use entropy of the distribution of possible predicted words to measure how good the language model is. An improvement of 0.1 bits is impressive. The solution here is *perplexity*: `perp(X,Θ) = 2^{H(X|Θ)}` where `X` is a sentence and `Θ` is a language model.
 
 ### Readings
 
