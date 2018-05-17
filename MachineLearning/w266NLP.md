@@ -130,15 +130,10 @@ To combat this, we aim to use higher-order n-grams when possible, and lower-orde
 Some common smoothing methods:
 
 * Use a larger corpus
-
 * **Katz smoothing**: If count of history is less than some threshold, then reduce size of N in N-gram. Can have different thresholds for different N's.
-
 * **Interpolation**: Use a weighted combination of uni-, bi- and tri-gram probabilities
-
 * **Laplace Smoothing**: Choose a small number and add it to all of the counts.
-
 * **Unknowns**: Lump n-grams that don't have probability into a single entry called unknown. Or even better, draw an inference from the letters
-
 * **Kneser-Ney**: Considers frequency of unigram in relation to possible words preceding it. It is widely considered the most effective.
 
 ### Readings
