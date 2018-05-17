@@ -8,9 +8,7 @@
 
 **Sentiment Analysis**: computationally identifying and categorizing opinions expressed in a piece of text, especially in order to determine the writer's attitude towards a particular topic
 
-Reviews are a good way to explore sentiment and text understanding.
-
-&nbsp;
+Reviews are a good way to explore sentiment and text understanding. <br>
 
 Scherer Typology of Affective States:
 
