@@ -8,7 +8,7 @@
 
 **Sentiment Analysis**: computationally identifying and categorizing opinions expressed in a piece of text, especially in order to determine the writer's attitude towards a particular topic
 
-Reviews are a good way to explore sentiment and text understanding. <br>
+Reviews are a good way to explore sentiment and text understanding. <br><br>
 
 Scherer Typology of Affective States:
 
@@ -18,9 +18,7 @@ Scherer Typology of Affective States:
 - **Attitude**, enduring beliefs towards objects or persons
 - **Personality traits**, stable dispositions and typical behavior
 
-Sentiment analysis detects **attitudes**.
-
-&nbsp;
+Sentiment analysis detects **attitudes**. <br><br>
 
 Some common terms:
 
