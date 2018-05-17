@@ -125,15 +125,21 @@ Typically, we run into the following problems if the corpus is not large enough:
 * known words in unknown contexts
 * unknown words
 
-To combat this, we aim to use higher-order n-grams when possible, and lower-oder n-grams when necessary.
+To combat this, we aim to use higher-order n-grams when possible, and lower-order n-grams when necessary.
 
-**Katz smoothing**: if count of history is less than some threshold, then reduce size of N in N-gram. Can have different thresholds for different N's.
+Some common smoothing methods:
 
-**Interpolation**: use a weighted combination of uni-, bi- and tri-gram probabilities
+* Use a larger corpus
 
-**Laplace Smoothing**: choose a small number and add it to all of the counts
+* **Katz smoothing**: If count of history is less than some threshold, then reduce size of N in N-gram. Can have different thresholds for different N's.
 
-**Unknowns**: lump n-grams that don't have probability into a single entry called unknown. Or even better, draw an inference from the letters
+* **Interpolation**: Use a weighted combination of uni-, bi- and tri-gram probabilities
+
+* **Laplace Smoothing**: Choose a small number and add it to all of the counts.
+
+* **Unknowns**: Lump n-grams that don't have probability into a single entry called unknown. Or even better, draw an inference from the letters
+
+* **Kneser-Ney**: Considers frequency of unigram in relation to possible words preceding it. It is widely considered the most effective.
 
 ### Readings
 
