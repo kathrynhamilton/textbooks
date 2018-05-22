@@ -176,7 +176,12 @@ By trying to match similar distributions of words to the immediate left and righ
 * Partitions words into classes, which are words appearing in similar contexts
 * Provides hierarchical clustering of words
 
-`V = w1, w2,..., wn` is the set of all words in the corpus. `C` is a partition function that maps vocabulary `V` into classes `{1, 2,..., k}`. We have *emmision* probability `e`, where `e(w1 | 2)` is the probability `class 1` emits the word `w1`. We have *transition* probability `q` where `q(3 | 5)` is the probability of transitioning from a word in `class 5` to a word in `class 3` (ie. `<5>` precedes `<3>`).
+The Brown Clustering model is as follows:
+
+* `V = w1, w2,..., wn` is the set of all words in the corpus. 
+* `C` is a partition function that maps vocabulary `V` into classes `{1, 2,..., k}`
+* *Emmision* probability `e`, where `e(w1 | 2)` is the probability `class 1` emits the word `w1`.
+* *Transition* probability `q`, where `q(3 | 5)` is the probability of transitioning from a word in `class 5` to a word in `class 3` (ie. `<5>` precedes `<3>`).
 
 ### Readings
 
