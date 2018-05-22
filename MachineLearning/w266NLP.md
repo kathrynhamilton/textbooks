@@ -112,7 +112,7 @@ We could also try character-based N-grams because the vocabulary is very small, 
 
 We don't want to generate fake text. We want generated sentences to improve as we increase order (so long as we don't overfit). A bad sentence doesn't mean ungrammatical. It means an unlikely sentence, a sentence we know is wrong but that the translation model likes.
 
-We can use entropy of the distribution of possible predicted words to measure how good the language model is. An improvement of 0.1 bits is impressive. The solution here is *perplexity*: `perp(X,Θ) = 2^{H(X|Θ)}` where `X` is a sentence and `Θ` is a language model. Lower perplexity is better. The best possible perplexity is 1, where entropy would be 0 as there is no uncertainty in the next word.
+We can use entropy of the distribution of possible predicted words to measure how good the language model is. An improvement of 0.1 bits is impressive. The solution here is **perplexity*: `perp(X,Θ) = 2^{H(X|Θ)}` where `X` is a sentence and `Θ` is a language model. Lower perplexity is better. The best possible perplexity is 1, where entropy would be 0 as there is no uncertainty in the next word.
 
 Extrinisic evaluation is also possible. For example, we might use *word error rate* to assess a speech to text converter. It assesses the difference between a recognized sentence and the true sentence in terms of normalized number of insertions, deletions, and substitutions.
 
@@ -154,7 +154,7 @@ Relationships among words are poorly modeled. How can we more accurately express
 
 #### WordNet
 
-The first attempt at this was a *WordNet*, a lexical database that aimed to be a machine-readable combination of a dictionary and a thesaurus. This consisted of:
+Goal: a lexical database that aimed to be a machine-readable combination of a dictionary and a thesaurus. This consists of:
 
 * synsets, grouping of words that are synonymous in a particular context
 * semantic relations, which connect synsets. For example: hypernym (class, eg. canine is a hypernym of dog) and hyponym (specific instance, eg. dog is a hyponym of canine)
@@ -163,7 +163,7 @@ Unfortunately, WordNet is only available in English, requires lots of manual lab
 
 #### Distributional Similarity
 
-Represent a word by statistical properties of its context. There are several important ideas here:
+Goal: Represent a word by statistical properties of its context. There are several important ideas here:
 
 * cluster words based on their context (Brown clustering algorithm)
 * use co-occurence matrix representation (Latent semantic analysis)
