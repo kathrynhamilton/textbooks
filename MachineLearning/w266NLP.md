@@ -187,6 +187,21 @@ We have `p(w1, w2,...,wt) =  ∏ e(wi|C(wi)) * q(C(wi)|C(wi-1))` where `C(w)` is
 
 The quality of a given partition is `Quality(C) = ∑ log e(wi|C(wi)) * q(C(wi)|C(wi-1))`. This is an equivalent metric to mutual information between classes, `∑ p(c,c') * log p(c,c')/(p(c)p(c'))`, which is an indicator of how much `c` tells us about `c'`.
 
+A slow algorithm, O(|V|^5):
+
+1. Start with `|V|` clusters, each word by itself
+2. Try to merge all pairs of clusters and pick the merge that maximizes `Quality(C)`
+3. Repeat (2) until desired number of clusters, `|V|-k` times
+4. Repeat (2) until all clusters merge and a heirarchy is formed
+
+A faster algorithm, O(|V|m^2), and the one that is most commonly used in practice:
+
+1. Start with the `m` most popular words each in their own cluster
+2. Take an unclustered word and make a new cluster for it (there are now `m+1` clusters)
+3. Try to merge all pairs of clusters and pick the merge that maximized `Quality(C)` (there are now `m` clusters)
+4. Repeat (2), (3) until all words are in a cluster
+5. Repeat (3) until all clusters merge and a heirarchy is formed
+
 ### Readings
 
 ## 5 - Language Modelling II
