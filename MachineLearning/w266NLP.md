@@ -171,17 +171,21 @@ Goal: Represent a word by statistical properties of its context. There are sever
 
 #### Brown Clustering
 
-By trying to match similar distributions of words to the immediate left and right, Brown Clustering:
+Similar words appear in similar contexts. By trying to match distributions of words to the immediate left and right, Brown Clustering:
 
-* Partitions words into classes, which are words appearing in similar contexts
+* Partitions/Clusters words into classes, which are words appearing in similar contexts. Each word can only be in one cluster.
 * Provides hierarchical clustering of words
 
 The Brown Clustering model is as follows:
 
 * **Vocabulary** `V = w1, w2,..., wn`, the set of all words in the corpus. 
-* **Partition function** `C`, that maps vocabulary `V` into classes `{1, 2,..., k}`
+* **Partition function** `C`, that maps vocabulary `V` into classes `{1, 2,..., k}`. `k` is typically about 1000.
 * **Emission probability** `e`, where `e(w1 | 2)` is the probability `class 1` emits the word `w1`.
 * **Transition probability** `q`, where `q(3 | 5)` is the probability of transitioning from a word in `class 5` to a word in `class 3` (ie. `<5>` precedes `<3>`).
+
+We have `p(w1, w2,...,wt) =  ∏ e(wi|C(wi)) * q(C(wi)|C(wi-1))` where `C(w)` is the cluster/class of `w`. We want to choose `C` that maximizes the courpus.
+
+The quality of a given partition is `Quality(C) = ∑ log e(wi|C(wi)) * q(C(wi)|C(wi-1))`. This is an equivalent metric to mutual information between classes, `∑ p(c,c') * log p(c,c')/(p(c)p(c'))`, which is an indicator of how much `c` tells us about `c'`.
 
 ### Readings
 
