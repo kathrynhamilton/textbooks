@@ -202,6 +202,8 @@ A faster algorithm, O(|V|m^2), and the one that is most commonly used in practic
 4. Repeat (2), (3) until all words are in a cluster
 5. Repeat (3) until all clusters merge and a heirarchy is formed
 
+
+
 ### Readings
 
 ## 5 - Language Modelling II
