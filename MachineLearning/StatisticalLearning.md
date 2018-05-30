@@ -114,10 +114,16 @@ When we regress $Y$ on $X$ we obtain estimates ($\hat{\beta_0}$, \, $\hat{\beta_
 The most common was to do this is by least squares regression, which minimizes the residual sum of squares (RSS). This gives:
 
 \begin{aligned}
-\hat{\beta_1} &= \frac{\sum_i=1^n (x_i-\bar{x})(y_i-\bar{y})}{\sum_i=1^n (x_i-\bar{x})^2} \\
-\hat{\beta_0} &= \bar{y}-\hat{\beta_1}\hat{x} \\
-RSS &= \sum_i 1^n e_i = \sum_i 1^n (y_i-\hat{y_i})
+\hat{\beta_1} &= \text{slope} = \frac{\sum_i=1^n (x_i-\bar{x})(y_i-\bar{y})}{\sum_i=1^n (x_i-\bar{x})^2} \\
+\hat{\beta_0} &= \text{intercept} = \bar{y}-\hat{\beta_1}\bar{x} \\
+RSS &= \sum_i 1^n e_i^2 = \sum_i 1^n (y_i-\hat{y_i})^2 = \sum_i 1^n (y_i-\hat{\beta_0}-\hat{\beta_1}x_i})^2
 \end{aligned}
+
+The true relationships is expressed as $Y = \beta_0 + \beta_1 X + \epsilon$
+
+An **unbiased** estimator does not systematically over- or under-setimate the true parameter. For example, averaging a parameter over many samples or datasets is (hopefully) unbiased, whereas relying on the value calculated from a single sample is (likely) biased.
+
+We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE}(\hat{\mu})^2=\frac{\sigma^2}{n}$.
 
 ### Multiple Linear Regression
 ### Other Consideration in the Regression Model
