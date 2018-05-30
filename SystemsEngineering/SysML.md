@@ -42,7 +42,7 @@ Not all of these are typically necessary to model a system. Only create somethin
 
 ### <a name="stdiag"></a>Structure Diagrams 
 
-#### Package Diagram <a name="pdiag"></a>
+#### <a name="pdiag"></a>Package Diagram 
 
 - Organizes model and elements
 - View system from multiple levels of abstraction
@@ -50,7 +50,7 @@ Not all of these are typically necessary to model a system. Only create somethin
 
 ![Package Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/pdiag.png "Quick Reference Guide: Package Diagram")
 
-#### Block Definiton Diagram <a name="bddiag"></a>
+#### <a name="bddiag"></a>Block Definiton Diagram
 
 - Represent structure and features of system using *blocks*
 - Shows *block* properties and values
@@ -58,14 +58,14 @@ Not all of these are typically necessary to model a system. Only create somethin
 
 ![Block Definition Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/bddiag.png "Quick Reference Guide: Block Definition Diagram")
 
-#### Internal Block Diagram <a name="ibdiag"></a>
+#### <a name="ibdiag"></a>Internal Block Diagram 
 
 - Describes internal structure of a *block*
 - Contains *parts*, *ports*, and *connectors*
 
 ![Internal Block Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/ibdiag.png "Quick Reference Guide: Internal Block Diagram")
 
-#### Parametric Diagram <a name="pmdiag"></a>
+#### <a name="pmdiag"></a>Parametric Diagram 
 
 - Models system constraints
 - Represents a usage of constraints in an specific context
@@ -74,16 +74,16 @@ Not all of these are typically necessary to model a system. Only create somethin
 
 ![Parametric Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/pmdiag.png "Quick Reference Guide: Parametric Diagram")
 
-### Behaviour Diagrams <a name="bhdiag"></a>
+### <a name="bhdiag"></a>Behaviour Diagrams 
 
-#### Use Case Diagram <a name="ucdiag"></a>
+#### <a name="ucdiag"></a>Use Case Diagram 
 
 - Describe functionality provided by system
 - Contains *actors*, *use cases*, and relationships
 
 ![Use Case Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/ucdiag.png "Quick Reference Guide: Use Case Diagram")
 
-#### State Machine Diagram <a name="smdiag"></a>
+#### <a name="smdiag"></a>State Machine Diagram 
 
 - Represents a block's life cycle, using *states* and *nodes*
 - Defines system behaviour as a sequence of states a component experience in response to events
@@ -92,7 +92,7 @@ Not all of these are typically necessary to model a system. Only create somethin
 
 ![State Machine Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/smdiag.png "Quick Reference Guide: State Machine Diagram")
 
-#### Activity Diagram <a name="atdiag"></a>
+#### <a name="atdiag"></a>Activity Diagram 
 
 - Shows a procedural flow of system behaviour, in particular the responsibilities of each actor
 - Useful for workflow modeling
@@ -101,7 +101,7 @@ Not all of these are typically necessary to model a system. Only create somethin
 
 ![Activity Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/atdiag.png "Quick Reference Guide: Activity Diagram")
 
-#### Sequence Diagram <a name="sqdiag"></a>
+#### <a name="sqdiag"></a>Sequence Diagram 
 
 - Decribes how a group of objects performs a process, using sequential interactions
 - Shows the communication and interaction between actors
@@ -110,7 +110,7 @@ Not all of these are typically necessary to model a system. Only create somethin
 
 ![Sequence Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/sqdiag.png "Quick Reference Guide: Sequence Diagram")
 
-### Requirements Diagram <a name="rqdiag"></a>
+### <a name="rqdiag"></a>Requirements Diagram 
 
 - Describes textual requirements contained in a specification
 - Shows relationships between requirements (eg. derivation)
