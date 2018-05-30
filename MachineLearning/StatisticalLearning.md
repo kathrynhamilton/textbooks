@@ -196,12 +196,12 @@ We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE
 [7.6 Local Regression](#7.6)<br>
 [7.7 Generalized Additive Models](#7.7)
 
-### <a name="7.7"></a>7.1 Polynomial Regression
-### <a name="7.7"></a>7.2 Step Functions
-### <a name="7.7"></a>7.3 Basis Functions
-### <a name="7.7"></a>7.4 Regression Splines
-### <a name="7.7"></a>7.5 Smoothing Splines
-### <a name="7.7"></a>7.6 Local Regression
+### <a name="7.1"></a>7.1 Polynomial Regression
+### <a name="7.2"></a>7.2 Step Functions
+### <a name="7.3"></a>7.3 Basis Functions
+### <a name="7.4"></a>7.4 Regression Splines
+### <a name="7.5"></a>7.5 Smoothing Splines
+### <a name="7.6"></a>7.6 Local Regression
 ### <a name="7.7"></a>7.7 Generalized Additive Models 
 
 ## <a name="ch8"></a>8 Tree-Based Methods
