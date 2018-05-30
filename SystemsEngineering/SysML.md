@@ -20,7 +20,71 @@ Advantages to model based design:
 - Reusable design repository that can generate many types of artifacts
 - Enhances traceability and ability to assess impact of proposed changes
 
+## Methods and Frameworks
+
 SysML is not a framework or a method. It is a language.
+
+In order to use SysML successfully, teams need agreement on model structure and required artifacts.
+
+A proposed framework (Magic Grid):
+
+C1. Stakeholder Needs
+
+- Information gathered from stakeholders
+- Primary user requirements, government regulations, policies, procedures
+
+C2. Use Cases
+
+- Use Case Diagram
+- Define measurable value provided to user
+- Define system contexts where use cases are performed
+- How system interacts with user in a flow of actions and events
+
+C3. System Context
+
+- Internal Block Diagram
+- How system interacts with actors and external environment
+- Define high-level interfaces needed for system to communicate with environment
+
+C4-P4. Measurements of Effectiveness
+
+- Block Definition Diagram (C4 - full system, P4 - subsystem)
+- How well a system (or subsystem) carries out a task within a specific context
+- Non-functional stakeholder needs or objectives expressed in numerical format
+- Key performance indicators
+
+P1. System Requirements
+
+- Requirements Diagram
+- Goals: long term and global achievements
+- Objectives: specific, quantifiable, time-bound strategies to attain goals
+
+P2. Functional Analysis
+
+- Activity Diagram
+- Sequence Diagram
+- Continuation of use case analysis
+- Focus on internal system functions
+- Identification of logical subsystems
+
+P3. Logical Subsystem Communication
+
+- Block Definition Diagram
+- Identify and define logical interfaces between logical subsystems
+
+S1. Component Requirements
+
+S2.
+
+S3. Component Assembly
+
+- Show physical connections based on physical interfaces between systems, subsystems, components
+- Physical components implement logical subsystems
+- Does NOT include physical component detailed design
+
+S4.
+
+![Magic Grid](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/mg.png "Magic Grid Framework")
 
 ## Types of Diagrams
 
@@ -38,7 +102,7 @@ SysML is not a framework or a method. It is a language.
 
 Not all of these are typically necessary to model a system. Only create something if you see value in it. There is also no one good order in which to create diagrams.
 
-![SysML Diagrams](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/smldiag.png "Caption")
+![SysML Diagrams](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/smldiag.png "Caption")
 
 ### <a name="stdiag"></a>Structure Diagrams 
 
@@ -48,7 +112,7 @@ Not all of these are typically necessary to model a system. Only create somethin
 - View system from multiple levels of abstraction
 - Describes dependencies between *packages* and elements
 
-![Package Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/pdiag.png "Quick Reference Guide: Package Diagram")
+![Package Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/pdiag.png "Quick Reference Guide: Package Diagram")
 
 #### <a name="bddiag"></a>Block Definiton Diagram
 
@@ -56,14 +120,14 @@ Not all of these are typically necessary to model a system. Only create somethin
 - Shows *block* properties and values
 - Describes relationships between *blocks*
 
-![Block Definition Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/bddiag.png "Quick Reference Guide: Block Definition Diagram")
+![Block Definition Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/bddiag.png "Quick Reference Guide: Block Definition Diagram")
 
 #### <a name="ibdiag"></a>Internal Block Diagram 
 
 - Describes internal structure of a *block*
 - Contains *parts*, *ports*, and *connectors*
 
-![Internal Block Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/ibdiag.png "Quick Reference Guide: Internal Block Diagram")
+![Internal Block Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/ibdiag.png "Quick Reference Guide: Internal Block Diagram")
 
 #### <a name="pmdiag"></a>Parametric Diagram 
 
@@ -72,16 +136,16 @@ Not all of these are typically necessary to model a system. Only create somethin
 - Created within a block (internal block diagram)
 - Uses equation blocks (block definition diagram)
 
-![Parametric Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/pmdiag.png "Quick Reference Guide: Parametric Diagram")
+![Parametric Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/pmdiag.png "Quick Reference Guide: Parametric Diagram")
 
 ### <a name="bhdiag"></a>Behaviour Diagrams 
 
 #### <a name="ucdiag"></a>Use Case Diagram 
 
-- Describe functionality provided by system
+- Describe functionality, context, and measurable value provided by system
 - Contains *actors*, *use cases*, and relationships
 
-![Use Case Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/ucdiag.png "Quick Reference Guide: Use Case Diagram")
+![Use Case Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/ucdiag.png "Quick Reference Guide: Use Case Diagram")
 
 #### <a name="smdiag"></a>State Machine Diagram 
 
@@ -90,7 +154,7 @@ Not all of these are typically necessary to model a system. Only create somethin
 - Can be brief or detailed, as required
 - Describes state enter/exit conditions (optional)
 
-![State Machine Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/smdiag.png "Quick Reference Guide: State Machine Diagram")
+![State Machine Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/smdiag.png "Quick Reference Guide: State Machine Diagram")
 
 #### <a name="atdiag"></a>Activity Diagram 
 
@@ -108,13 +172,13 @@ Not all of these are typically necessary to model a system. Only create somethin
 - Assigns responsibilities to blocks
 - Shows evolution of the system over time
 
-![Sequence Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/sqdiag.png "Quick Reference Guide: Sequence Diagram")
+![Sequence Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/sqdiag.png "Quick Reference Guide: Sequence Diagram")
 
 ### <a name="rqdiag"></a>Requirements Diagram 
 
 - Describes textual requirements contained in a specification
 - Shows relationships between requirements (eg. derivation)
 
-![Requirements Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/rqdiag.png "Quick Reference Guide: Requirements Diagram")
+![Requirements Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/rqdiag.png "Quick Reference Guide: Requirements Diagram")
 
 ##
