@@ -20,6 +20,8 @@ Advantages to model based design:
 - Reusable design repository that can generate many types of artifacts
 - Enhances traceability and ability to assess impact of proposed changes
 
+SysML is not a framework or a method. It is a language.
+
 ## Types of diagrams
 
 - [Structure Diagram](#stdiag)
