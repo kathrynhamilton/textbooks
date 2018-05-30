@@ -4,7 +4,20 @@ James, Witten, Hastie, Tibshirani
 
 Kathryn Hamilton - March 2018
 
-## 1 - Introduction
+## Table of Contents
+
+1. [Introduction](#ch1)
+2. [Statistical Learning](#ch2)
+3. [Linear Regression](#ch3)
+4. [Classification](#ch4)
+5. [Resampling Methods](#ch5)
+6. [Linear Model Selection and Regularization](#ch6)
+7. [Moving Beyond Linearity](#ch7)
+8. [Tree-Based Methods](#ch8)
+9. [Support Vector Machines](#ch9)
+10. [Unsupervised Learning](#ch10)
+
+## 1 - Introduction <a name="ch1"></a>
 
 Statistical learning is a set of tools for modeling and understanding complex datasets. These tools can be classified as **supervised** or **unsupervised**.
 
@@ -22,7 +35,7 @@ Three example datasets are used throughout this book:
 
 There are **R** libraries and the above datasets available on the book's [website](http:/www.StatLearning.com) to work through the book's examples and labs.
 
-## 2 - Statistical Learning
+## 2 - Statistical Learning <a name="ch2"></a>
 
 ### What is Statistical Learning?
 
@@ -103,7 +116,7 @@ KNN identifies the K closest observations to $x_0$, called $N_0$. It then estima
 
 *The choice of $K$ is very important.* As $K$ grows the model becomes less flexible. The optimal $K$ value is often neither small nor large, but somewhere in the middle.
 
-## 3 - Linear Regression
+## 3 - Linear Regression <a name="ch3"></a>
 
 ### Simple Linear Regression
 
@@ -130,7 +143,7 @@ We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE
 ### The Marketing Plan
 ### Comparison of Linear Regression with K-Nearest Neighbors
 
-## 4 - Classification
+## 4 - Classification <a name="ch4"></a>
 
 ### An Overview of Classification
 ### Why Not Linear Regression?
@@ -138,19 +151,19 @@ We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE
 ### Linear Discriminant Analysis
 ### A Comparison of Classification Methods
 
-## 5 - Resampling Methods
+## 5 - Resampling Methods <a name="ch5"></a>
 
 ### Cross-Validation
 ### The Bootstrap
 
-## 6 - Linear Model Selection and Regularization
+## 6 - Linear Model Selection and Regularization <a name="ch6"></a>
 
 ### Subset Selection
 ### Shrinkage Methods
 ### Dimension Reduction Methods
 ### Considerations in High Dimensions
 
-## 7 - Moving Beyond Linearity
+## 7 - Moving Beyond Linearity <a name="ch7"></a>
 
 ### Polynomial Regression
 ### Step Functions
@@ -158,14 +171,14 @@ We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE
 ### Regression Splines
 ### Smoothing Splines
 ### Local Regression
-### Generalized Additive Models
+### Generalized Additive Models <a name="ch8"></a>
 
 ## 8 - Tree-Based Methods
 
 ### The Basics of Decision Trees
 ### Bagging, Random Forests, Boosting
 
-## 9 - Support Vector Machines
+## 9 - Support Vector Machines <a name="ch9"></a>
 
 ### Maximal Margin Classifier
 ### Support Vector Classifiers
@@ -173,7 +186,7 @@ We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE
 ### SVMs with More than Two Classes
 ### Relationship to Logistic Regression
 
-## 10 - Unsupervised Learning
+## 10 - Unsupervised Learning <a name="ch10"></a>
 
 ### The Challenge of Unsupervised Learning
 ### Principal Components Analysis
