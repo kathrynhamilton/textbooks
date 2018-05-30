@@ -4,7 +4,7 @@ May 30, 2018 to June 1, 2018
 
 **www.nomagic.com/support/quick-reference-guides.html**
 
-## System Modelling & Model Based Systems Engineering
+## Model Based Systems Engineering
 
 What does a system model do?
 
@@ -22,7 +22,7 @@ Advantages to model based design:
 
 SysML is not a framework or a method. It is a language.
 
-## Types of diagrams
+## Types of Diagrams
 
 - [Structure Diagram](#stdiag)
   - [Block Definition Diagram](#bddiag)
