@@ -195,3 +195,18 @@ S4. Component Parameters
 - How physical characteristics achieve MoEs
 
 ![Magic Grid](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/mg.png "Magic Grid Framework")
+
+## Packages and Model Structure
+
+System Architecture and System Model Architecture are two different things!
+
+There are four package types in SysML:
+
+- Models, root of the system model
+- Libraries, set of model elements intended for reuse (eg. signals, value types, interfaces, constraints, common blocks)
+- Profile Packages, contains sterotypes which extend existing model elements by adding new properties, constraints, or semantics
+- Views, filtered subset of the system model
+
+Common practice is to structure based on abstraction level and framework.
+
+Packages create unique namespace for contained model elements.
