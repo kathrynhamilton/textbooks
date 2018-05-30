@@ -35,7 +35,7 @@ Three example datasets are used throughout this book:
 
 There are **R** libraries and the above datasets available on the book's [website](http:/www.StatLearning.com) to work through the book's examples and labs.
 
-## <a name="ch2"></a>2 - Statistical Learning
+## <a name="ch2"></a>2 Statistical Learning
 
 [2.1 What is Statistical Learning?](#2.1)<br>
 [2.2 Assessing Model Accuracy](#2.2)
