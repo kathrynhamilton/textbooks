@@ -31,7 +31,6 @@ Not all of these are typically necessary to model a system. Only create somethin
 - View system from multiple levels of abstraction
 - Describes dependencies between *packages* and elements
 
-**Add diagram from big page handout**
 ![Package Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/pdiag.png "Quick Reference Guide: Package Diagram")
 
 ##### Block Definiton Diagram <a name="bddiag"></a>
@@ -40,7 +39,6 @@ Not all of these are typically necessary to model a system. Only create somethin
 - Shows *block* properties and values
 - Describes relationships between *blocks*
 
-**Add diagram from big page handout**
 ![Block Definition Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/bddiag.png "Quick Reference Guide: Block Definition Diagram")
 
 ##### Internal Block Diagram <a name="ibdiag"></a>
@@ -48,18 +46,20 @@ Not all of these are typically necessary to model a system. Only create somethin
 - Describes internal structure of a *block*
 - Contains *parts*, *ports*, and *connectors*
 
-**Add diagram from big page handout**
 ![Internal Block Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/ibdiag.png "Quick Reference Guide: Internal Block Diagram")
 
 #### Behaviour Diagram <a name="bhdiag"></a>
 
-##### Use Case Diagram
+##### Use Case Diagram <a name="ucdiag"></a>
 
 - Describe functionality provided by system
 - Contains *actors*, *use cases*, and relationships
 
-**Add diagram from big page handout**
 ![Use Case Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/ucdiag.png "Quick Reference Guide: Use Case Diagram")
 
-##### 
+##### State Machine Diagram <a name="smdiag"></a>
 
+- Represents a block's life cycle
+- Defines system behaviour as a sequence of states
+
+![State Machine Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/smdiag.png "Quick Reference Guide: State Machine Diagram")
