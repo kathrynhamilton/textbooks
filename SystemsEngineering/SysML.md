@@ -22,7 +22,7 @@ Advantages to model based design:
 
 ## Types of Diagrams
 
-- [Structure Diagrams](#stdiag)
+-[Structure Diagrams](#stdiag)
   - [Block Definition Diagram](#bddiag)
   - [Internal Block Diagram](#ibdiag)
     - [Parametric Diagram](#pmdiag)
@@ -111,7 +111,17 @@ Not all of these are typically necessary to model a system. Only create somethin
 ### <a name="rqdiag"></a>Requirements Diagram 
 
 - Describes textual requirements contained in a specification
-- Shows relationships between requirements (eg. derivation)
+- Shows relationships between requirements and to other model elements
+- Can also be viewed as a table or matrix
+- Should be organized by abstraction level
+
+Client and Supplier elements can be used to show dependence.
+
+Use comments to document rationale.
+
+Relationships: (to other elements) satisfy, verify, refine, (to other requirements) derive, copy, trace, containment
+
+Requirement Types: functional, interface, design constraint, performance, physical
 
 ![Requirements Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/rqdiag.png "Quick Reference Guide: Requirements Diagram")
 
@@ -122,6 +132,8 @@ SysML is not a framework or a method. It is a language.
 In order to use SysML successfully, teams need agreement on model structure and required artifacts.
 
 A proposed framework (Magic Grid):
+
+![Magic Grid](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/mg.png "Magic Grid Framework")
 
 C1. Stakeholder Needs
 
@@ -193,8 +205,6 @@ S4. Component Parameters
 - Physical characteristics of a system or subsystem
 - Dependencies between physical characteristics
 - How physical characteristics achieve MoEs
-
-![Magic Grid](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/mg.png "Magic Grid Framework")
 
 ## Packages and Model Structure
 
