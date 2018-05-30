@@ -21,7 +21,7 @@ May 30, 2018 to June 1, 2018
       - [Parametric Diagram](#pmdiag)
     - [Package Diagram](#pdiag)
 
-Not all of these are typically necessary to model a system. Only create something if you see value in it.
+Not all of these are typically necessary to model a system. Only create something if you see value in it. There is also no one good order in which to create diagrams.
 
 #### Structure Diagram <a name="stdiag"></a>
 
@@ -59,7 +59,30 @@ Not all of these are typically necessary to model a system. Only create somethin
 
 ##### State Machine Diagram <a name="smdiag"></a>
 
-- Represents a block's life cycle
-- Defines system behaviour as a sequence of states
+- Represents a block's life cycle, using *states* and *nodes*
+- Defines system behaviour as a sequence of states a component experience in response to events
+- Can be brief or detailed, as required
+- Describes state enter/exit conditions (optional)
 
 ![State Machine Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/smdiag.png "Quick Reference Guide: State Machine Diagram")
+
+##### Activity Diagram <a name="atdiag"></a>
+
+- Shows a procedural flow of system behaviour
+- Useful for workflow modeling
+- Contains *actions*, *objects*, and *nodes*
+
+![Activity Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/atdiag.png "Quick Reference Guide: Activity Diagram")
+
+##### Sequence Diagram <a name="sqdiag"></a>
+
+- Decribes how a group of objects performs a process, using sequential interactions
+- Assigns responsibilities to blocks
+
+![Sequence Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/sqdiag.png "Quick Reference Guide: Sequence Diagram")
+
+#### Requirements Diagram <a name="rqdiag"></a>
+
+- 
+
+![Requirements Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/rqdiag.png "Quick Reference Guide: Requirements Diagram")
