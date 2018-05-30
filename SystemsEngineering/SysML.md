@@ -48,6 +48,15 @@ Not all of these are typically necessary to model a system. Only create somethin
 
 ![Internal Block Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/ibdiag.png "Quick Reference Guide: Internal Block Diagram")
 
+##### Parametric Diagram <a name="pmdiag"></a>
+
+- Models system constraints
+- Represents a usage of constraints in an specific context
+- Created within a block (internal block diagram)
+- Uses equation blocks (block definition diagram)
+
+![Parametric Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/pmdiag.png "Quick Reference Guide: Parametric Diagram")
+
 #### Behaviour Diagram <a name="bhdiag"></a>
 
 ##### Use Case Diagram <a name="ucdiag"></a>
@@ -68,21 +77,25 @@ Not all of these are typically necessary to model a system. Only create somethin
 
 ##### Activity Diagram <a name="atdiag"></a>
 
-- Shows a procedural flow of system behaviour
+- Shows a procedural flow of system behaviour, in particular the responsibilities of each actor
 - Useful for workflow modeling
 - Contains *actions*, *objects*, and *nodes*
+- Shows evolution of the system over time
 
 ![Activity Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/atdiag.png "Quick Reference Guide: Activity Diagram")
 
 ##### Sequence Diagram <a name="sqdiag"></a>
 
 - Decribes how a group of objects performs a process, using sequential interactions
+- Shows the communication and interaction between actors
 - Assigns responsibilities to blocks
+- Shows evolution of the system over time
 
 ![Sequence Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/sqdiag.png "Quick Reference Guide: Sequence Diagram")
 
 #### Requirements Diagram <a name="rqdiag"></a>
 
-- 
+- Describes textual requirements contained in a specification
+- Shows relationships between requirements (eg. derivation)
 
 ![Requirements Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/rqdiag.png "Quick Reference Guide: Requirements Diagram")
