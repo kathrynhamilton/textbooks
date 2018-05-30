@@ -99,7 +99,7 @@ Not all of these are typically necessary to model a system. Only create somethin
 - Contains *actions*, *objects*, and *nodes*
 - Shows evolution of the system over time
 
-![Activity Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/atdiag.png "Quick Reference Guide: Activity Diagram")
+![Activity Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/atdiag.png "Quick Reference Guide: Activity Diagram")
 
 #### <a name="sqdiag"></a>Sequence Diagram 
 
