@@ -11,3 +11,4 @@ This repository contains my annotated notes on various books and textbooks that 
 
 ### Writing
 * Story Genius by Lisa Cron (Chapters 1-8 of 13)
+* The Emotional Craft of Fiction by Donald Maass
