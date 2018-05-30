@@ -40,7 +40,7 @@ Not all of these are typically necessary to model a system. Only create somethin
 
 ![SysML Diagrams](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/smldiag.png "Caption")
 
-### Structure Diagrams <a name="stdiag"></a>
+### <a name="stdiag"></a>Structure Diagrams 
 
 #### Package Diagram <a name="pdiag"></a>
 
