@@ -20,72 +20,6 @@ Advantages to model based design:
 - Reusable design repository that can generate many types of artifacts
 - Enhances traceability and ability to assess impact of proposed changes
 
-## Methods and Frameworks
-
-SysML is not a framework or a method. It is a language.
-
-In order to use SysML successfully, teams need agreement on model structure and required artifacts.
-
-A proposed framework (Magic Grid):
-
-C1. Stakeholder Needs
-
-- Information gathered from stakeholders
-- Primary user requirements, government regulations, policies, procedures
-
-C2. Use Cases
-
-- Use Case Diagram
-- Define measurable value provided to user
-- Define system contexts where use cases are performed
-- How system interacts with user in a flow of actions and events
-
-C3. System Context
-
-- Internal Block Diagram
-- How system interacts with actors and external environment
-- Define high-level interfaces needed for system to communicate with environment
-
-C4-P4. Measurements of Effectiveness
-
-- Block Definition Diagram (C4 - full system, P4 - subsystem)
-- How well a system (or subsystem) carries out a task within a specific context
-- Non-functional stakeholder needs or objectives expressed in numerical format
-- Key performance indicators
-
-P1. System Requirements
-
-- Requirements Diagram
-- Goals: long term and global achievements
-- Objectives: specific, quantifiable, time-bound strategies to attain goals
-
-P2. Functional Analysis
-
-- Activity Diagram
-- Sequence Diagram
-- Continuation of use case analysis
-- Focus on internal system functions
-- Identification of logical subsystems
-
-P3. Logical Subsystem Communication
-
-- Block Definition Diagram
-- Identify and define logical interfaces between logical subsystems
-
-S1. Component Requirements
-
-S2.
-
-S3. Component Assembly
-
-- Show physical connections based on physical interfaces between systems, subsystems, components
-- Physical components implement logical subsystems
-- Does NOT include physical component detailed design
-
-S4.
-
-![Magic Grid](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/mg.png "Magic Grid Framework")
-
 ## Types of Diagrams
 
 - [Structure Diagrams](#stdiag)
@@ -181,4 +115,83 @@ Not all of these are typically necessary to model a system. Only create somethin
 
 ![Requirements Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/rqdiag.png "Quick Reference Guide: Requirements Diagram")
 
-##
+## Methods and Frameworks
+
+SysML is not a framework or a method. It is a language.
+
+In order to use SysML successfully, teams need agreement on model structure and required artifacts.
+
+A proposed framework (Magic Grid):
+
+C1. Stakeholder Needs
+
+- Information gathered from stakeholders
+- Primary user requirements, government regulations, policies, procedures
+
+C2. Use Cases
+
+- Use Case Diagram
+- Define measurable value provided to user
+- Define system contexts where use cases are performed
+- How system interacts with user in a flow of actions and events
+
+C3. System Context
+
+- Internal Block Diagram
+- How system interacts with actors and external environment
+- Define high-level interfaces needed for system to communicate with environment
+
+C4-P4. Measurements of Effectiveness
+
+- Block Definition Diagram (C4 - full system, P4 - subsystem)
+- How well a system (or subsystem) carries out a task within a specific context
+- Non-functional stakeholder needs or objectives expressed in numerical format
+- Key performance indicators
+
+P1. System Requirements
+
+- Requirements Diagram
+- Goals: long term and global achievements
+- Objectives: specific, quantifiable, time-bound strategies to attain goals
+
+P2. Functional Analysis
+
+- Activity Diagram
+- Sequence Diagram
+- Continuation of use case analysis
+- Focus on internal system functions
+- Identification of logical subsystems
+
+P3. Logical Subsystem Communication
+
+- Block Definition Diagram
+- Identify and define logical interfaces between logical subsystems
+
+S1. Component Requirements
+
+- Requirements Diagram
+- Detailes requirements
+- Subsstem requirements derived from system requirements
+- Compoment requirements from subsystem requirements
+
+S2. Component Behaviour
+
+- State Machine Diagram
+- Detailed behaviour of a system or subsystem
+- Defines states and actions
+
+S3. Component Assembly
+
+- Block Definition Diagram
+- Internal Block Diagram
+- Show physical connections based on physical interfaces between systems, subsystems, components
+- Physical components implement logical subsystems
+- Does NOT include physical component detailed design
+
+S4. Component Parameters
+
+- Physical characteristics of a system or subsystem
+- Dependencies between physical characteristics
+- How physical characteristics achieve MoEs
+
+![Magic Grid](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/mg.png "Magic Grid Framework")
