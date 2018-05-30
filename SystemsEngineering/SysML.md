@@ -38,7 +38,7 @@ SysML is not a framework or a method. It is a language.
 
 Not all of these are typically necessary to model a system. Only create something if you see value in it. There is also no one good order in which to create diagrams.
 
-![SysML Diagrams](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/smldiag.png "Caption")
+![SysML Diagrams](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/smldiag.png "Caption")
 
 ### <a name="stdiag"></a>Structure Diagrams 
 
@@ -48,7 +48,7 @@ Not all of these are typically necessary to model a system. Only create somethin
 - View system from multiple levels of abstraction
 - Describes dependencies between *packages* and elements
 
-![Package Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/pdiag.png "Quick Reference Guide: Package Diagram")
+![Package Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/pdiag.png "Quick Reference Guide: Package Diagram")
 
 #### <a name="bddiag"></a>Block Definiton Diagram
 
@@ -56,14 +56,14 @@ Not all of these are typically necessary to model a system. Only create somethin
 - Shows *block* properties and values
 - Describes relationships between *blocks*
 
-![Block Definition Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/bddiag.png "Quick Reference Guide: Block Definition Diagram")
+![Block Definition Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/bddiag.png "Quick Reference Guide: Block Definition Diagram")
 
 #### <a name="ibdiag"></a>Internal Block Diagram 
 
 - Describes internal structure of a *block*
 - Contains *parts*, *ports*, and *connectors*
 
-![Internal Block Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/ibdiag.png "Quick Reference Guide: Internal Block Diagram")
+![Internal Block Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/ibdiag.png "Quick Reference Guide: Internal Block Diagram")
 
 #### <a name="pmdiag"></a>Parametric Diagram 
 
@@ -72,7 +72,7 @@ Not all of these are typically necessary to model a system. Only create somethin
 - Created within a block (internal block diagram)
 - Uses equation blocks (block definition diagram)
 
-![Parametric Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/pmdiag.png "Quick Reference Guide: Parametric Diagram")
+![Parametric Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/pmdiag.png "Quick Reference Guide: Parametric Diagram")
 
 ### <a name="bhdiag"></a>Behaviour Diagrams 
 
@@ -81,7 +81,7 @@ Not all of these are typically necessary to model a system. Only create somethin
 - Describe functionality provided by system
 - Contains *actors*, *use cases*, and relationships
 
-![Use Case Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/ucdiag.png "Quick Reference Guide: Use Case Diagram")
+![Use Case Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/ucdiag.png "Quick Reference Guide: Use Case Diagram")
 
 #### <a name="smdiag"></a>State Machine Diagram 
 
@@ -90,7 +90,7 @@ Not all of these are typically necessary to model a system. Only create somethin
 - Can be brief or detailed, as required
 - Describes state enter/exit conditions (optional)
 
-![State Machine Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/smdiag.png "Quick Reference Guide: State Machine Diagram")
+![State Machine Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/smdiag.png "Quick Reference Guide: State Machine Diagram")
 
 #### <a name="atdiag"></a>Activity Diagram 
 
@@ -99,7 +99,7 @@ Not all of these are typically necessary to model a system. Only create somethin
 - Contains *actions*, *objects*, and *nodes*
 - Shows evolution of the system over time
 
-![Activity Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/atdiag.png "Quick Reference Guide: Activity Diagram")
+![Activity Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/atdiag.png "Quick Reference Guide: Activity Diagram")
 
 #### <a name="sqdiag"></a>Sequence Diagram 
 
@@ -108,13 +108,13 @@ Not all of these are typically necessary to model a system. Only create somethin
 - Assigns responsibilities to blocks
 - Shows evolution of the system over time
 
-![Sequence Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/sqdiag.png "Quick Reference Guide: Sequence Diagram")
+![Sequence Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/sqdiag.png "Quick Reference Guide: Sequence Diagram")
 
 ### <a name="rqdiag"></a>Requirements Diagram 
 
 - Describes textual requirements contained in a specification
 - Shows relationships between requirements (eg. derivation)
 
-![Requirements Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/rqdiag.png "Quick Reference Guide: Requirements Diagram")
+![Requirements Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEnginering/images/rqdiag.png "Quick Reference Guide: Requirements Diagram")
 
 ##
