@@ -6,18 +6,18 @@ Kathryn Hamilton - March 2018
 
 ## Table of Contents
 
-1. [Introduction](#ch1)
-2. [Statistical Learning](#ch2)
-3. [Linear Regression](#ch3)
-4. [Classification](#ch4)
-5. [Resampling Methods](#ch5)
-6. [Linear Model Selection and Regularization](#ch6)
-7. [Moving Beyond Linearity](#ch7)
-8. [Tree-Based Methods](#ch8)
-9. [Support Vector Machines](#ch9)
-10. [Unsupervised Learning](#ch10)
+[1 Introduction](#ch1)
+[2 Statistical Learning](#ch2)
+[3 Linear Regression](#ch3)
+[4 Classification](#ch4)
+[5 Resampling Methods](#ch5)
+[6 Linear Model Selection and Regularization](#ch6)
+[7 Moving Beyond Linearity](#ch7)
+[8 Tree-Based Methods](#ch8)
+[9 Support Vector Machines](#ch9)
+[10 Unsupervised Learning](#ch10)
 
-## <a name="ch1"></a>1 - Introduction 
+## <a name="ch1"></a>1 Introduction 
 
 Statistical learning is a set of tools for modeling and understanding complex datasets. These tools can be classified as **supervised** or **unsupervised**.
 
@@ -35,9 +35,12 @@ Three example datasets are used throughout this book:
 
 There are **R** libraries and the above datasets available on the book's [website](http:/www.StatLearning.com) to work through the book's examples and labs.
 
-## <a name="ch2"></a>2 - Statistical Learning 
+## <a name="ch2"></a>2 - Statistical Learning
 
-### What is Statistical Learning?
+[2.1 What is Statistical Learning?](#2.1)
+[2.2 Assessing Model Accuracy](#2.2)
+
+### <a name="2.1"></a>2.1 What is Statistical Learning?
 
 For input variables $X_1, X_2, \dots , X_p$ and output response $Y$ we assume that there is some relationship $Y=f(X)+\epsilon$, where $\epsilon$ is a zero-mean random error term independent of $X$. *Statistical learning is a set of approaches to estimate $f$.* We call this estimate $\hat{f}$.
 
@@ -82,7 +85,7 @@ Various statistical methods have a trade off between **interpretability** and **
 
 Variables in a statistical learning problem are either **quantitative** or **qualitative** (categorical). We tend to refer to problems with a quantitative response as **regression** problems while those involving a qualitative response are referred to as **classification** problems.
 
-### Assessing Model Accuracy
+### <a name="2.2"></a>2.2 Assessing Model Accuracy
 
 *There is no free lunch* in statistics: no one method dominates all others over all possible datasets. Hence, it is an important task to decide which method produces the best results for the particular dataset at hand.
 
@@ -116,9 +119,15 @@ KNN identifies the K closest observations to $x_0$, called $N_0$. It then estima
 
 *The choice of $K$ is very important.* As $K$ grows the model becomes less flexible. The optimal $K$ value is often neither small nor large, but somewhere in the middle.
 
-## <a name="ch3"></a>3 - Linear Regression 
+## <a name="ch3"></a>3 Linear Regression 
 
-### Simple Linear Regression
+[3.1 Simple Linear Regression](#3.1)
+[3.2 Multiple Linear Regression](#3.2)
+[3.3 Other Consideration in the Regression Model](#3.3)
+[3.4 The Marketing Plan](#3.4)
+[3.5 Comparison of Linear Regression with K-Nearest Neighbors](#3.5)
+
+### <a name="3.1"></a>3.1 Simple Linear Regression
 
 We assume a linear relationship between a quantitative response Y and a single predictor variable X: $Y \approx \beta_0+\beta_1X$.
 
@@ -138,56 +147,91 @@ An **unbiased** estimator does not systematically over- or under-setimate the tr
 
 We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE}(\hat{\mu})^2=\frac{\sigma^2}{n}$.
 
-### Multiple Linear Regression
-### Other Consideration in the Regression Model
-### The Marketing Plan
-### Comparison of Linear Regression with K-Nearest Neighbors
+### <a name="3.2"></a>3.2 Multiple Linear Regression
+### <a name="3.3"></a>3.3 Other Consideration in the Regression Model
+### <a name="3.4"></a>3.4 The Marketing Plan
+### <a name="3.5"></a>3.5 Comparison of Linear Regression with K-Nearest Neighbors
 
-## <a name="ch4"></a>4 - Classification 
+## <a name="ch4"></a>4 Classification 
 
-### An Overview of Classification
-### Why Not Linear Regression?
-### Logistic Regression
-### Linear Discriminant Analysis
-### A Comparison of Classification Methods
+[4.1 An Overview of Classification](#4.1)
+[4.2 Why Not Linear Regression?](#4.2)
+[4.3 Logistic Regression](#4.3)
+[4.4 Linear Discriminant Analysis](#4.4)
+[4.5 A Comparison of Classification Methods](#4.5)
 
-## <a name="ch5"></a>5 - Resampling Methods 
+### <a name="4.1"></a>4.1 An Overview of Classification
+### <a name="4.2"></a>4.2 Why Not Linear Regression?
+### <a name="4.3"></a>4.3 Logistic Regression
+### <a name="4.4"></a>4.4 Linear Discriminant Analysis
+### <a name="4.5"></a>4.5 A Comparison of Classification Methods
 
-### Cross-Validation
-### The Bootstrap
+## <a name="ch5"></a>5 Resampling Methods 
 
-## <a name="ch6"></a>6 - Linear Model Selection and Regularization 
+[5.1 Cross-Validation](#5.1)
+[5.2 The Bootstrap](#5.2)
 
-### Subset Selection
-### Shrinkage Methods
-### Dimension Reduction Methods
-### Considerations in High Dimensions
+### <a name="5.1"></a>5.1 Cross-Validation
+### <a name="5.2"></a>5.2 The Bootstrap
 
-## <a name="ch7"></a>7 - Moving Beyond Linearity 
+## <a name="ch6"></a>6 Linear Model Selection and Regularization
 
-### Polynomial Regression
-### Step Functions
-### Basis Functions
-### Regression Splines
-### Smoothing Splines
-### Local Regression
-### Generalized Additive Models 
+[6.1 Subset Selection](#6.1)
+[6.2 Shrinkage Methods](#6.2)
+[6.3 Dimension Reduction Methods](#6.3)
+[6.4 Considerations in High Dimensions](#6.4)
 
-## <a name="ch8"></a>8 - Tree-Based Methods
+### <a name="6.1"></a>6.1 Subset Selection
+### <a name="6.2"></a>6.2 Shrinkage Methods
+### <a name="6.3"></a>6.3 Dimension Reduction Methods
+### <a name="6.4"></a>6.4 Considerations in High Dimensions
 
-### The Basics of Decision Trees
-### Bagging, Random Forests, Boosting
+## <a name="ch7"></a>7 Moving Beyond Linearity
 
-## <a name="ch9"></a>9 - Support Vector Machines 
+[7.1 Polynomial Regression](#7.1)
+[7.2 Step Functions](#7.2)
+[7.3 Basis Functions](#7.3)
+[7.4 Regression Splines](#7.4)
+[7.5 Smoothing Splines](#7.5)
+[7.6 Local Regression](#7.6)
+[7.7 Generalized Additive Models](#7.7)
 
-### Maximal Margin Classifier
-### Support Vector Classifiers
-### Support Vector Machines
-### SVMs with More than Two Classes
-### Relationship to Logistic Regression
+### <a name="7.7"></a>7.1 Polynomial Regression
+### <a name="7.7"></a>7.2 Step Functions
+### <a name="7.7"></a>7.3 Basis Functions
+### <a name="7.7"></a>7.4 Regression Splines
+### <a name="7.7"></a>7.5 Smoothing Splines
+### <a name="7.7"></a>7.6 Local Regression
+### <a name="7.7"></a>7.7 Generalized Additive Models 
 
-## <a name="ch10"></a>10 - Unsupervised Learning 
+## <a name="ch8"></a>8 Tree-Based Methods
 
-### The Challenge of Unsupervised Learning
-### Principal Components Analysis
-### Clustering Methods
+[8.1 The Basics of Decision Trees](#8.1)
+[8.2 Bagging, Random Forests, Boosting](#8.2)
+
+### <a name="8.1"></a>8.1 The Basics of Decision Trees
+### <a name="8.2"></a>8.2 Bagging, Random Forests, Boosting
+
+## <a name="ch9"></a>9 Support Vector Machines 
+
+[9.1 Maximal Margin Classifier](#9.1)
+[9.2 Support Vector Classifiers](#9.2)
+[9.3 Support Vector Machines](#9.3)
+[9.4 SVMs with More than Two Classes](9.4)
+[9.5 Relationship to Logistic Regression](9.5)
+
+### <a name="9.1"></a>9.1 Maximal Margin Classifier
+### <a name="9.2"></a>9.2 Support Vector Classifiers
+### <a name="9.3"></a>9.3 Support Vector Machines
+### <a name="9.4"></a>9.4 SVMs with More than Two Classes
+### <a name="9.5"></a>9.5 Relationship to Logistic Regression
+
+## <a name="ch10"></a>10 Unsupervised Learning 
+
+[10.1 The Challenge of Unsupervised Learning](#10.1)
+[10.2 Principal Components Analysis](#10.2)
+[10.3 Clustering Methods](#10.3)
+
+### <a name="10.1"></a>10.1 The Challenge of Unsupervised Learning
+### <a name="10.2"></a>10.2 Principal Components Analysis
+### <a name="10.3"></a>10.3 Clustering Methods
