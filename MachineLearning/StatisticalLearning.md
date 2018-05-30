@@ -6,15 +6,15 @@ Kathryn Hamilton - March 2018
 
 ## Table of Contents
 
-[1 Introduction](#ch1)
-[2 Statistical Learning](#ch2)
-[3 Linear Regression](#ch3)
-[4 Classification](#ch4)
-[5 Resampling Methods](#ch5)
-[6 Linear Model Selection and Regularization](#ch6)
-[7 Moving Beyond Linearity](#ch7)
-[8 Tree-Based Methods](#ch8)
-[9 Support Vector Machines](#ch9)
+[1 Introduction](#ch1)<br>
+[2 Statistical Learning](#ch2)<br>
+[3 Linear Regression](#ch3)<br>
+[4 Classification](#ch4)<br>
+[5 Resampling Methods](#ch5)<br>
+[6 Linear Model Selection and Regularization](#ch6)<br>
+[7 Moving Beyond Linearity](#ch7)<br>
+[8 Tree-Based Methods](#ch8)<br>
+[9 Support Vector Machines](#ch9)<br>
 [10 Unsupervised Learning](#ch10)
 
 ## <a name="ch1"></a>1 Introduction 
@@ -37,7 +37,7 @@ There are **R** libraries and the above datasets available on the book's [websit
 
 ## <a name="ch2"></a>2 - Statistical Learning
 
-[2.1 What is Statistical Learning?](#2.1)
+[2.1 What is Statistical Learning?](#2.1)<br>
 [2.2 Assessing Model Accuracy](#2.2)
 
 ### <a name="2.1"></a>2.1 What is Statistical Learning?
@@ -121,10 +121,10 @@ KNN identifies the K closest observations to $x_0$, called $N_0$. It then estima
 
 ## <a name="ch3"></a>3 Linear Regression 
 
-[3.1 Simple Linear Regression](#3.1)
-[3.2 Multiple Linear Regression](#3.2)
-[3.3 Other Consideration in the Regression Model](#3.3)
-[3.4 The Marketing Plan](#3.4)
+[3.1 Simple Linear Regression](#3.1)<br>
+[3.2 Multiple Linear Regression](#3.2)<br>
+[3.3 Other Consideration in the Regression Model](#3.3)<br>
+[3.4 The Marketing Plan](#3.4)<br>
 [3.5 Comparison of Linear Regression with K-Nearest Neighbors](#3.5)
 
 ### <a name="3.1"></a>3.1 Simple Linear Regression
@@ -154,10 +154,10 @@ We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE
 
 ## <a name="ch4"></a>4 Classification 
 
-[4.1 An Overview of Classification](#4.1)
-[4.2 Why Not Linear Regression?](#4.2)
-[4.3 Logistic Regression](#4.3)
-[4.4 Linear Discriminant Analysis](#4.4)
+[4.1 An Overview of Classification](#4.1)<br>
+[4.2 Why Not Linear Regression?](#4.2)<br>
+[4.3 Logistic Regression](#4.3)<br>
+[4.4 Linear Discriminant Analysis](#4.4)<br>
 [4.5 A Comparison of Classification Methods](#4.5)
 
 ### <a name="4.1"></a>4.1 An Overview of Classification
@@ -168,7 +168,7 @@ We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE
 
 ## <a name="ch5"></a>5 Resampling Methods 
 
-[5.1 Cross-Validation](#5.1)
+[5.1 Cross-Validation](#5.1)<br>
 [5.2 The Bootstrap](#5.2)
 
 ### <a name="5.1"></a>5.1 Cross-Validation
@@ -176,9 +176,9 @@ We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE
 
 ## <a name="ch6"></a>6 Linear Model Selection and Regularization
 
-[6.1 Subset Selection](#6.1)
-[6.2 Shrinkage Methods](#6.2)
-[6.3 Dimension Reduction Methods](#6.3)
+[6.1 Subset Selection](#6.1)<br>
+[6.2 Shrinkage Methods](#6.2)<br>
+[6.3 Dimension Reduction Methods](#6.3)<br>
 [6.4 Considerations in High Dimensions](#6.4)
 
 ### <a name="6.1"></a>6.1 Subset Selection
@@ -188,12 +188,12 @@ We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE
 
 ## <a name="ch7"></a>7 Moving Beyond Linearity
 
-[7.1 Polynomial Regression](#7.1)
-[7.2 Step Functions](#7.2)
-[7.3 Basis Functions](#7.3)
-[7.4 Regression Splines](#7.4)
-[7.5 Smoothing Splines](#7.5)
-[7.6 Local Regression](#7.6)
+[7.1 Polynomial Regression](#7.1)<br>
+[7.2 Step Functions](#7.2)<br>
+[7.3 Basis Functions](#7.3)<br>
+[7.4 Regression Splines](#7.4)<br>
+[7.5 Smoothing Splines](#7.5)<br>
+[7.6 Local Regression](#7.6)<br>
 [7.7 Generalized Additive Models](#7.7)
 
 ### <a name="7.7"></a>7.1 Polynomial Regression
@@ -206,7 +206,7 @@ We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE
 
 ## <a name="ch8"></a>8 Tree-Based Methods
 
-[8.1 The Basics of Decision Trees](#8.1)
+[8.1 The Basics of Decision Trees](#8.1)<br>
 [8.2 Bagging, Random Forests, Boosting](#8.2)
 
 ### <a name="8.1"></a>8.1 The Basics of Decision Trees
@@ -214,10 +214,10 @@ We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE
 
 ## <a name="ch9"></a>9 Support Vector Machines 
 
-[9.1 Maximal Margin Classifier](#9.1)
-[9.2 Support Vector Classifiers](#9.2)
-[9.3 Support Vector Machines](#9.3)
-[9.4 SVMs with More than Two Classes](9.4)
+[9.1 Maximal Margin Classifier](#9.1)<br>
+[9.2 Support Vector Classifiers](#9.2)<br>
+[9.3 Support Vector Machines](#9.3)<br>
+[9.4 SVMs with More than Two Classes](9.4)<br>
 [9.5 Relationship to Logistic Regression](9.5)
 
 ### <a name="9.1"></a>9.1 Maximal Margin Classifier
@@ -228,8 +228,8 @@ We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE
 
 ## <a name="ch10"></a>10 Unsupervised Learning 
 
-[10.1 The Challenge of Unsupervised Learning](#10.1)
-[10.2 Principal Components Analysis](#10.2)
+[10.1 The Challenge of Unsupervised Learning](#10.1)<br>
+[10.2 Principal Components Analysis](#10.2)<br>
 [10.3 Clustering Methods](#10.3)
 
 ### <a name="10.1"></a>10.1 The Challenge of Unsupervised Learning
