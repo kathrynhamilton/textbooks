@@ -24,12 +24,12 @@ SysML is not a framework or a method. It is a language.
 
 ## Types of Diagrams
 
-- [Structure Diagram](#stdiag)
+- [Structure Diagrams](#stdiag)
   - [Block Definition Diagram](#bddiag)
   - [Internal Block Diagram](#ibdiag)
     - [Parametric Diagram](#pmdiag)
   - [Package Diagram](#pdiag)
-- [Behavior Diagram](#bhdiag)
+- [Behavior Diagrams](#bhdiag)
   - [Activity Diagram](#atdiag)
   - [Sequence Diagram](#sqdiag)
   - [State Machine Diagram](#smdiag)
@@ -38,7 +38,9 @@ SysML is not a framework or a method. It is a language.
 
 Not all of these are typically necessary to model a system. Only create something if you see value in it. There is also no one good order in which to create diagrams.
 
-### Structure Diagram <a name="stdiag"></a>
+![SysML Diagrams](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/smldiag.png "Caption")
+
+### Structure Diagrams <a name="stdiag"></a>
 
 #### Package Diagram <a name="pdiag"></a>
 
@@ -72,7 +74,7 @@ Not all of these are typically necessary to model a system. Only create somethin
 
 ![Parametric Diagram](https://github.com/kathrynhamilton/textbooks/SystemsEnginering/images/pmdiag.png "Quick Reference Guide: Parametric Diagram")
 
-### Behaviour Diagram <a name="bhdiag"></a>
+### Behaviour Diagrams <a name="bhdiag"></a>
 
 #### Use Case Diagram <a name="ucdiag"></a>
 
