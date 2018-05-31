@@ -22,7 +22,7 @@ Advantages to model based design:
 
 ## Types of Diagrams
 
--[Structure Diagrams](#stdiag)
+- [Structure Diagrams](#stdiag)
   - [Block Definition Diagram](#bddiag)
   - [Internal Block Diagram](#ibdiag)
     - [Parametric Diagram](#pmdiag)
