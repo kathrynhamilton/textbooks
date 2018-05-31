@@ -28,10 +28,10 @@ Advantages to model based design:
     - [Parametric Diagram](#pmdiag)
   - [Package Diagram](#pdiag)
 - [Behavior Diagrams](#bhdiag)
+  - [Use Case Diagram](#ucdiag)
   - [Activity Diagram](#atdiag)
   - [Sequence Diagram](#sqdiag)
   - [State Machine Diagram](#smdiag)
-  - [Use Case Diagram](#ucdiag)
 - [Requirement Diagram](#rqdiag)
 
 Not all of these are typically necessary to model a system. Only create something if you see value in it. There is also no one good order in which to create diagrams.
@@ -76,8 +76,10 @@ Not all of these are typically necessary to model a system. Only create somethin
 
 #### <a name="ucdiag"></a>Use Case Diagram 
 
-- Describe functionality, context, and measurable value provided by system
-- Contains *actors*, *use cases*, and relationships
+- Describe functionality, context, and measurable value provided by system to user
+- Contains *actors*, *use cases*, association relationships, and system boundaries
+
+USE CASE: A service or behaviour performed by the system in response to requests from stakeholders. Does not represent all functionality provided bt the system. Does not describe internal functions. Writen as a verb phrase. Includes scope, goal, pre-conditions, post-conditions, main success scenario, inclusions, and extensions.
 
 ![Use Case Diagram](https://github.com/kathrynhamilton/textbooks/blob/master/SystemsEngineering/images/ucdiag.png "Quick Reference Guide: Use Case Diagram")
 
