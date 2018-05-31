@@ -2,7 +2,29 @@
 
 Lisa Cron
 
-### Introduction
+### <a name="toc"></a>Table of Contents
+
+ [Introduction](#intro)<br>
+[Part One - What a Story Is, and What It Isn't](#pt1)<br>
+ [Chapter 1 - The Brain's Decoder Ring](#ch1)<br>
+ [Chapter 2 - Myths Galore: Everything We Were Taught About Writing is Wrong](#ch2)<br>
+[Part Two - Creating the Inside Story](#pt2)<br>
+ [Chapter 3 - The What If? Expectation, Broken!](#ch3)<br>
+ [Chapter 4 - The Who: Whose Life Will You Utterly Upend?](#ch4)<br>
+ [Chapter 5 - The Why: Why, Exactly, Does Your Protagonist Care?](#ch5)<br>
+ [Chapter 6 - The Worldview: Your Protagonist's, That Is](#ch6)<br>
+ [Chapter 7 - The What Next? The Beauty of Cause and Effect](#ch7)<br>
+ [Chapter 8 - The When: An Offer Your Protagonist Can't Refuse (But Probably Wants To)](#ch8)<br>
+[Part Three - Creating an External Gauntlet to Spur Your Protagonist's Internal Struggle](#pt3)<br>
+ [Chapter 9 - The Opening: Of Your Novel and of the Story Genius Blueprinting System](#ch9)<br>
+ [Chapter 10 - The Real "Aha!" Moment: Where Will Your Story End?](#ch10)<br>
+ [Chapter 11 - Building Your Blueprint: How to Keep Track of All the Moving Parts](#ch11)<br>
+ [Chapter 12 - Going Back to Move Forward: How to Harvest the Past to Set Up the Plot](#ch12)<br>
+ [Chapter 13 - Story Logic: Making Sure Each "What" Has a "Why"](#ch13)<br>
+ [Chaper 14 - The Secret to Layering: Subplots, Storylines, and Secondary Characters](#ch14)<br>
+ [Chapter 15 - Writing Forward: Stories Grow in Spirals](#ch15)
+
+### <a name="intro"></a>Introduction
 
 What's the biggest mistakes writers make? The don't know what a story is. Most writers mistake story for the things we can see on the page: the stunning prose, the authoritative voice, the intense and exciting plot, the clever structure. It's not.
 
@@ -10,9 +32,15 @@ Story flows directly from how the protagonist is making sense of what's happenin
 
 This is why you have to know everything there is to know about ther protagonist's specific internal problem *before* you create the plot. Story first, plot second.
 
-## Part One - What a Story Is, and What It Isn't
+[Back to Table of Contents](#toc)
 
-### Chapter 1 - The Brain's Decoder Ring
+## <a name="pt1"></a>Part One - What a Story Is, and What It Isn't
+
+[Chapter 1 - The Brain's Decoder Ring](#ch1)<br>
+[Chapter 2 - Myths Galore: Everything We Were Taught About Writing is Wrong](#ch2)<br>
+[Back to Table of Contents](#toc)
+
+### <a name="ch1"></a>Chapter 1 - The Brain's Decoder Ring
 
 Humans are wired for story, regardless of the genre. When you read a book, it's as if someone pressed the pause button on your own life, allowing you to love and breathe in an alternate reality. An effective story is an offer your brain can't refuse.
 
@@ -28,7 +56,10 @@ Stories help us interpret and anticipate the actions of ourselves and others. We
 
 So to write an effective story, we need to teach the reader how to face certain obstacles in life. We need to warn them about what they might feel, and how best to deal with themselves and others in that case. In a nutshell, we need to show them how things that happen affect someone in pursuit of a difficult goal, and how that person changes internally as a result.
 
-### Chapter 2 - Myths Galore: Everything We Were Taught About Writing is Wrong
+[Back to Part One - What a Story Is, and What It Isn't](#pt1)<br>
+[Back to Table of Contents](#toc)
+
+### <a name="ch2"></a>Chapter 2 - Myths Galore: Everything We Were Taught About Writing is Wrong
 
 From kindergarten, we are taught: become a wordsmith and you automatically become a story teller. We are taught that writing well means coming up with great characters, interesting situations, dramatic scenes, compelling dialogue, gorgeous metaphors, beautiful sentances, and plenty of sensory details because that's what brings a story to life. But if this is true, then how can series like *Fifty Shades of Grey* sell over 100 million copies?
 
@@ -42,9 +73,20 @@ Plotting a story before writing is is the way to go but many, many writers fail 
 
 You can't have an after without a before, You can't write about how someone changes unless you know what they're changing from. They story doesn't start on page one. It started long before you got there. This doesn't mean you can solve your problems by simply dropping your protagonist into action and explaining it later. This means what starts on page one is the *second* half of the story, and whil contain large parts of the first in the form of flashbacks, dialogue, and snippets of memory. Without the first half of the story, there can be no second half. 
 
-## Part Two - Creating the Inside Story
+[Back to Part One - What a Story Is, and What It Isn't](#pt1)<br>
+[Back to Table of Contents](#toc)
 
-### Chapter 3 - The What If? Expectation, Broken!
+## <a name="pt2"></a>Part Two - Creating the Inside Story
+
+[Chapter 3 - The What If? Expectation, Broken!](#ch3)<br>
+[Chapter 4 - The Who: Whose Life Will You Utterly Upend?](#ch4)<br>
+[Chapter 5 - The Why: Why, Exactly, Does Your Protagonist Care?](#ch5)<br>
+[Chapter 6 - The Worldview: Your Protagonist's, That Is](#ch6)<br>
+[Chapter 7 - The What Next? The Beauty of Cause and Effect](#ch7)<br>
+[Chapter 8 - The When: An Offer Your Protagonist Can't Refuse (But Probably Wants To)](#ch8)<br>
+[Back to Table of Contents](#toc)
+
+### <a name="ch3"></a>Chapter 3 - The What If? Expectation, Broken!
 
 ##### 1. The First Pinprick
 
@@ -62,11 +104,17 @@ See if you can nail down the point your story will make in a few concise lines. 
 
 Write a What If that's as fully fleshed out as you can make it, but still concise. Keep at it until you have something specific, with context, conflict and a hint of surprise.
 
-### Chapter 4 - The Who: Whose Life Will You Utterly Upend?
+[Back to Part Two - Creating the Inside Story](#pt2)<br>
+[Back to Table of Contents](#toc)
+
+### <a name="ch4"></a>Chapter 4 - The Who: Whose Life Will You Utterly Upend?
 
 Write a thumbnail sketch of who your protagonist is before the novel starts. Who is this person on the inside? What do they believe? What do they want? Where are they in life, specifically?
 
-### Chapter 5 - The Why: Why, Exactly, Does Your Protagonist Care?
+[Back to Part Two - Creating the Inside Story](#pt2)<br>
+[Back to Table of Contents](#toc)
+
+### <a name="ch5"></a>Chapter 5 - The Why: Why, Exactly, Does Your Protagonist Care?
 
 All protagonists stand on the threshold of the novel they're about to be flung into with two things about to burn a hole in their pocket:
 
@@ -85,7 +133,10 @@ Write about why your protagonist whats that they want. What will getting it mean
 
 Try defining your protagonist's misbelief, the thing that is stopping them from getting what they want. What do they want, and what is the fear that is keeping them from achieving it? What do they think the very worst think that could happen would be?
 
-### Chapter 6 - The Worldview: Your Protagonist's, That Is
+[Back to Part Two - Creating the Inside Story](#pt2)<br>
+[Back to Table of Contents](#toc)
+
+### <a name="ch6"></a>Chapter 6 - The Worldview: Your Protagonist's, That Is
 
 ##### 1. Finding the Origin Scene
 
@@ -106,7 +157,10 @@ Jot down your answers to each of the four questions.
 
 Capture the moment when your protagonist's wold view shifted and their misbelief took root in their brain. Write a full fledged scene and do it in first person to unlock the emotional, mental journey specifically.
 
-### Chapter 7 - The What Next? The Beauty of Cause and Effect
+[Back to Part Two - Creating the Inside Story](#pt2)<br>
+[Back to Table of Contents](#toc)
+
+### <a name="ch7"></a>Chapter 7 - The What Next? The Beauty of Cause and Effect
 
 If you're not giving your reader a clear, plausible cause-and-effect progression, illuminated by the why behind it, then you're not giving them a story they can follow or care about. If your scenes can be linked with "and then", rather than "therefore" or "but", then you have something quite boring. The protagonist's past is a big part of the novel's opposition.
 
@@ -120,7 +174,10 @@ They don't have to be polished or beautifully written. They just have to capture
 
 The story-specific cause-and-effect trajectory began in the Origin Scene and continues with these three (or more) scenes.
 
-### Chapter 8 - The When: An Offer Your Protagonist Can't Refuse (But Probably Wants To)
+[Back to Part Two - Creating the Inside Story](#pt2)<br>
+[Back to Table of Contents](#toc)
+
+### <a name="ch8"></a>Chapter 8 - The When: An Offer Your Protagonist Can't Refuse (But Probably Wants To)
 
 The novel should start when life will no longer allow your protagonist to put off going after that thing they've always wanted, regardless of how much their misbelief suggests they sit this one out.
 
@@ -147,18 +204,65 @@ It is typically around the sixth or seventh tick, and will be when your protagon
 
 Congratulations! You not only know when your novel starts but you also know why, what's at stake, what it means to your protagonist, and what your novel is about.
 
-## Part Three - Creating an External Gauntlet to Spur Your Protagonist's Internal Struggle
+[Back to Part Two - Creating the Inside Story](#pt2)<br>
+[Back to Table of Contents](#toc)
 
-### Chapter 9 - The Opening: Of Your Novel and of the Story Genius Blueprinting System
+## <a name="pt3"></a>Part Three - Creating an External Gauntlet to Spur Your Protagonist's Internal Struggle
 
-### Chapter 10 - The Real "Aha!" Moment: Where Will Your Story End?
+[Chapter 9 - The Opening: Of Your Novel and of the Story Genius Blueprinting System](#ch9)<br>
+[Chapter 10 - The Real "Aha!" Moment: Where Will Your Story End?](#ch10)<br>
+[Chapter 11 - Building Your Blueprint: How to Keep Track of All the Moving Parts](#ch11)<br>
+[Chapter 12 - Going Back to Move Forward: How to Harvest the Past to Set Up the Plot](#ch12)<br>
+[Chapter 13 - Story Logic: Making Sure Each "What" Has a "Why"](#ch13)<br>
+[Chaper 14 - The Secret to Layering: Subplots, Storylines, and Secondary Characters](#ch14)<br>
+[Chapter 15 - Writing Forward: Stories Grow in Spirals](#ch15)<br>
+[Back to Table of Contents](#toc)
 
-### Chapter 11 - Building Your Blueprint: How to Keep Track of All the Moving Parts
+### <a name="ch9"></a>Chapter 9 - The Opening: Of Your Novel and of the Story Genius Blueprinting System
 
-### Chapter 12 - Going Back to Move Forward: How to Harvest the Past to Set Up the Plot
+Text
 
-### Chapter 13 - Story Logic: Making Sure Each "What" Has a "Why"
+[Back to Part Three - Creating an External Gauntlet to Spur Your Protagonist's Internal Struggle](#pt3)<br>
+[Back to Table of Contents](#toc)
 
-### Chaper 14 - The Secret to Layering: Subplots, Storylines, and Secondary Characters
+### <a name="ch10"></a>Chapter 10 - The Real "Aha!" Moment: Where Will Your Story End?
 
-### Chapter 15 - Writing Forward: Stories Grow in Spirals
+Text
+
+[Back to Part Three - Creating an External Gauntlet to Spur Your Protagonist's Internal Struggle](#pt3)<br>
+[Back to Table of Contents](#toc)
+
+### <a name="ch11"></a>Chapter 11 - Building Your Blueprint: How to Keep Track of All the Moving Parts
+
+Text
+
+[Back to Part Three - Creating an External Gauntlet to Spur Your Protagonist's Internal Struggle](#pt3)<br>
+[Back to Table of Contents](#toc)
+
+### <a name="ch12"></a>Chapter 12 - Going Back to Move Forward: How to Harvest the Past to Set Up the Plot
+
+Text
+
+[Back to Part Three - Creating an External Gauntlet to Spur Your Protagonist's Internal Struggle](#pt3)<br>
+[Back to Table of Contents](#toc)
+
+### <a name="ch13"></a>Chapter 13 - Story Logic: Making Sure Each "What" Has a "Why"
+
+Text
+
+[Back to Part Three - Creating an External Gauntlet to Spur Your Protagonist's Internal Struggle](#pt3)<br>
+[Back to Table of Contents](#toc)
+
+### <a name="ch14"></a>Chaper 14 - The Secret to Layering: Subplots, Storylines, and Secondary Characters
+
+Text
+
+[Back to Part Three - Creating an External Gauntlet to Spur Your Protagonist's Internal Struggle](#pt3)<br>
+[Back to Table of Contents](#toc)
+
+### <a name="ch15"></a>Chapter 15 - Writing Forward: Stories Grow in Spirals
+
+Text
+
+[Back to Part Three - Creating an External Gauntlet to Spur Your Protagonist's Internal Struggle](#pt3)<br>
+[Back to Table of Contents](#toc)
