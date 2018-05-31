@@ -1,3 +1,4 @@
+
 # An Introduction to Statistical Learning
 
 James, Witten, Hastie, Tibshirani
@@ -91,7 +92,7 @@ The accuracy of $\hat{f}$ depends on both **reducible error** and **irreducible 
 
 There are two motivations to estimate $f$: **prediction** and **inference**.
 
-In situations where $X$ is readily available but $Y$ is not, we can **predict** $Y$ using an estimate of $f$: $\hat{Y} = \hat(f)(X)$. In general, $\hat{f}$ is not a perfect estimate for $f$ because it cannot predict the irreducible error $\epsilon$. Here we can treat $\hat{f}$ as a black box.
+In situations where $X$ is readily available but $Y$ is not, we can **predict** $Y$ using an estimate of $f$: $\hat{Y} = \hat{f}(X)$. In general, $\hat{f}$ is not a perfect estimate for $f$ because it cannot predict the irreducible error $\epsilon$. Here we can treat $\hat{f}$ as a black box.
 
 In other situations, we are interested in understanding the way that $Y$ is affected as $X$ changes. This is called **inference**. We still need to estimate $f$ but cannot treat $\hat{f}$ as a black box as we are interested in understanding the relationship between $X$ and $Y$ as opposed to predicting $Y$. We may want to know:  
 
@@ -133,7 +134,7 @@ Variables in a statistical learning problem are either **quantitative** or **qua
 To measure how well predictions match observed data we use the following error functions, where $y_i$ is the observed value and $\hat{f}(x_i)$ is the predicted value of the response:
 
 * **Mean Squared Error** (MSE) for regression problems, $MSE=\frac{1}{n} \sum_{i=1}^{n}(y_i-\hat{f}(x_i))^2$.
-* **Error Rate** for classification problems, $\text{Error rate}=\frac{1}{n}\sum_{i=1}^{n} I_{(y_i)}\neq \hat{f(x_i)}$.
+* **Error Rate** for classification problems, $\text{Error rate}=\frac{1}{n}\sum_{i=1}^{n} I_{(y_i)}\neq \hat{f}(x_i)$.
 
 Models with smaller error predict more accurately that those with larger error.
 
@@ -150,7 +151,7 @@ In order to minimize expected test error, the chosen statistical method *must si
 
 Test error rate is minimized, on average, by a classifier that *assigns each observation to the most likely class*.
 
-The **Bayes Classifier** for quantitative responses operates under this premise, by predicting the class of $x_0$ to be $j$ when $P(Y=j \, | \, X=x_0) is the greatest out of all possible classes.
+The **Bayes Classifier** for quantitative responses operates under this premise, by predicting the class of $x_0$ to be $j$ when $P(Y=j \, | \, X=x_0)$ is the greatest out of all possible classes.
 
 The **Bayes error rate** is $1-E\left(\max_j P(Y=j \, | \, X)\right)$, which is analogous to the irreducible error.
 
@@ -180,11 +181,13 @@ When we regress $Y$ on $X$ we obtain estimates ($\hat{\beta_0}$, \, $\hat{\beta_
 
 The most common was to do this is by least squares regression, which minimizes the residual sum of squares (RSS). This gives:
 
+$$
 \begin{aligned}
 \hat{\beta_1} &= \text{slope} = \frac{\sum_i=1^n (x_i-\bar{x})(y_i-\bar{y})}{\sum_i=1^n (x_i-\bar{x})^2} \\
 \hat{\beta_0} &= \text{intercept} = \bar{y}-\hat{\beta_1}\bar{x} \\
-RSS &= \sum_i 1^n e_i^2 = \sum_i 1^n (y_i-\hat{y_i})^2 = \sum_i 1^n (y_i-\hat{\beta_0}-\hat{\beta_1}x_i})^2
+RSS &= \sum_i 1^n e_i^2 = \sum_i 1^n (y_i-\hat{y_i})^2 = \sum_i 1^n (y_i-\hat{\beta_0}-\hat{\beta_1} x_i)^2 \\
 \end{aligned}
+$$
 
 The true relationships is expressed as $Y = \beta_0 + \beta_1 X + \epsilon$
 
