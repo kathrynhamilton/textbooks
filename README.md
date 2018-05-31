@@ -2,7 +2,7 @@
 
 This repository contains my annotated notes on various books and textbooks that I've read.
 
-pandoc, 5apps, laverna, stackedit.io
+pandoc, 5apps, laverna, stackedit.io, automate.io
 
 ### Machine Learning
 * An Introduction to Statistical Learning with Applications in R by James, Witten, Hastie, and Tibshirani (Chapters 1-2 of 10)
