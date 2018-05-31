@@ -4,25 +4,25 @@ Lisa Cron
 
 ### <a name="toc"></a>Table of Contents
 
- [Introduction](#intro)<br>
+[Introduction](#intro)<br>
 [Part One - What a Story Is, and What It Isn't](#pt1)<br>
- [Chapter 1 - The Brain's Decoder Ring](#ch1)<br>
- [Chapter 2 - Myths Galore: Everything We Were Taught About Writing is Wrong](#ch2)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 1 - The Brain's Decoder Ring](#ch1)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 2 - Myths Galore: Everything We Were Taught About Writing is Wrong](#ch2)<br>
 [Part Two - Creating the Inside Story](#pt2)<br>
- [Chapter 3 - The What If? Expectation, Broken!](#ch3)<br>
- [Chapter 4 - The Who: Whose Life Will You Utterly Upend?](#ch4)<br>
- [Chapter 5 - The Why: Why, Exactly, Does Your Protagonist Care?](#ch5)<br>
- [Chapter 6 - The Worldview: Your Protagonist's, That Is](#ch6)<br>
- [Chapter 7 - The What Next? The Beauty of Cause and Effect](#ch7)<br>
- [Chapter 8 - The When: An Offer Your Protagonist Can't Refuse (But Probably Wants To)](#ch8)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 3 - The What If? Expectation, Broken!](#ch3)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 4 - The Who: Whose Life Will You Utterly Upend?](#ch4)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 5 - The Why: Why, Exactly, Does Your Protagonist Care?](#ch5)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 6 - The Worldview: Your Protagonist's, That Is](#ch6)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 7 - The What Next? The Beauty of Cause and Effect](#ch7)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 8 - The When: An Offer Your Protagonist Can't Refuse (But Probably Wants To)](#ch8)<br>
 [Part Three - Creating an External Gauntlet to Spur Your Protagonist's Internal Struggle](#pt3)<br>
- [Chapter 9 - The Opening: Of Your Novel and of the Story Genius Blueprinting System](#ch9)<br>
- [Chapter 10 - The Real "Aha!" Moment: Where Will Your Story End?](#ch10)<br>
- [Chapter 11 - Building Your Blueprint: How to Keep Track of All the Moving Parts](#ch11)<br>
- [Chapter 12 - Going Back to Move Forward: How to Harvest the Past to Set Up the Plot](#ch12)<br>
- [Chapter 13 - Story Logic: Making Sure Each "What" Has a "Why"](#ch13)<br>
- [Chaper 14 - The Secret to Layering: Subplots, Storylines, and Secondary Characters](#ch14)<br>
- [Chapter 15 - Writing Forward: Stories Grow in Spirals](#ch15)
+&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 9 - The Opening: Of Your Novel and of the Story Genius Blueprinting System](#ch9)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 10 - The Real "Aha!" Moment: Where Will Your Story End?](#ch10)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 11 - Building Your Blueprint: How to Keep Track of All the Moving Parts](#ch11)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 12 - Going Back to Move Forward: How to Harvest the Past to Set Up the Plot](#ch12)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 13 - Story Logic: Making Sure Each "What" Has a "Why"](#ch13)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Chaper 14 - The Secret to Layering: Subplots, Storylines, and Secondary Characters](#ch14)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 15 - Writing Forward: Stories Grow in Spirals](#ch15)
 
 ### <a name="intro"></a>Introduction
 
