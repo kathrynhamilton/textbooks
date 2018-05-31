@@ -4,18 +4,53 @@ James, Witten, Hastie, Tibshirani
 
 Kathryn Hamilton - March 2018
 
-## Table of Contents
+## <a name="toc"></a>Table of Contents
 
 [1 Introduction](#ch1)<br>
 [2 Statistical Learning](#ch2)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[2.1 What is Statistical Learning?](#2.1)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[2.2 Assessing Model Accuracy](#2.2)<br>
 [3 Linear Regression](#ch3)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[3.1 Simple Linear Regression](#3.1)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[3.2 Multiple Linear Regression](#3.2)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[3.3 Other Consideration in the Regression Model](#3.3)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[3.4 The Marketing Plan](#3.4)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[3.5 Comparison of Linear Regression with K-Nearest Neighbors](#3.5)<br>
 [4 Classification](#ch4)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[4.1 An Overview of Classification](#4.1)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[4.2 Why Not Linear Regression?](#4.2)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[4.3 Logistic Regression](#4.3)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[4.4 Linear Discriminant Analysis](#4.4)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[4.5 A Comparison of Classification Methods](#4.5)<br>
 [5 Resampling Methods](#ch5)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[5.1 Cross-Validation](#5.1)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[5.2 The Bootstrap](#5.2)<br>
 [6 Linear Model Selection and Regularization](#ch6)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[6.1 Subset Selection](#6.1)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[6.2 Shrinkage Methods](#6.2)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[6.3 Dimension Reduction Methods](#6.3)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[6.4 Considerations in High Dimensions](#6.4)<br>
 [7 Moving Beyond Linearity](#ch7)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[7.1 Polynomial Regression](#7.1)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[7.2 Step Functions](#7.2)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[7.3 Basis Functions](#7.3)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[7.4 Regression Splines](#7.4)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[7.5 Smoothing Splines](#7.5)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[7.6 Local Regression](#7.6)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[7.7 Generalized Additive Models](#7.7)<br>
 [8 Tree-Based Methods](#ch8)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[8.1 The Basics of Decision Trees](#8.1)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[8.2 Bagging, Random Forests, Boosting](#8.2)<br>
 [9 Support Vector Machines](#ch9)<br>
-[10 Unsupervised Learning](#ch10)
+&nbsp;&nbsp;&nbsp;&nbsp;[9.1 Maximal Margin Classifier](#9.1)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[9.2 Support Vector Classifiers](#9.2)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[9.3 Support Vector Machines](#9.3)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[9.4 SVMs with More than Two Classes](9.4)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[9.5 Relationship to Logistic Regression](9.5)<br>
+[10 Unsupervised Learning](#ch10)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[10.1 The Challenge of Unsupervised Learning](#10.1)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[10.2 Principal Components Analysis](#10.2)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[10.3 Clustering Methods](#10.3)
 
 ## <a name="ch1"></a>1 Introduction 
 
@@ -35,10 +70,13 @@ Three example datasets are used throughout this book:
 
 There are **R** libraries and the above datasets available on the book's [website](http:/www.StatLearning.com) to work through the book's examples and labs.
 
+[Back to Table of Contents](#toc)
+
 ## <a name="ch2"></a>2 Statistical Learning
 
 [2.1 What is Statistical Learning?](#2.1)<br>
-[2.2 Assessing Model Accuracy](#2.2)
+[2.2 Assessing Model Accuracy](#2.2)<br>
+[Back to Table of Contents](#toc)
 
 ### <a name="2.1"></a>2.1 What is Statistical Learning?
 
@@ -85,6 +123,9 @@ Various statistical methods have a trade off between **interpretability** and **
 
 Variables in a statistical learning problem are either **quantitative** or **qualitative** (categorical). We tend to refer to problems with a quantitative response as **regression** problems while those involving a qualitative response are referred to as **classification** problems.
 
+[Back to 2 Statistical Learning](#ch2)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="2.2"></a>2.2 Assessing Model Accuracy
 
 *There is no free lunch* in statistics: no one method dominates all others over all possible datasets. Hence, it is an important task to decide which method produces the best results for the particular dataset at hand.
@@ -119,13 +160,17 @@ KNN identifies the K closest observations to $x_0$, called $N_0$. It then estima
 
 *The choice of $K$ is very important.* As $K$ grows the model becomes less flexible. The optimal $K$ value is often neither small nor large, but somewhere in the middle.
 
+[Back to 2 Statistical Learning](#ch2)<br>
+[Back to Table of Contents](#toc)
+
 ## <a name="ch3"></a>3 Linear Regression 
 
 [3.1 Simple Linear Regression](#3.1)<br>
 [3.2 Multiple Linear Regression](#3.2)<br>
 [3.3 Other Consideration in the Regression Model](#3.3)<br>
 [3.4 The Marketing Plan](#3.4)<br>
-[3.5 Comparison of Linear Regression with K-Nearest Neighbors](#3.5)
+[3.5 Comparison of Linear Regression with K-Nearest Neighbors](#3.5)<br>
+[Back to Table of Contents](#toc)
 
 ### <a name="3.1"></a>3.1 Simple Linear Regression
 
@@ -147,10 +192,36 @@ An **unbiased** estimator does not systematically over- or under-setimate the tr
 
 We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE}(\hat{\mu})^2=\frac{\sigma^2}{n}$.
 
+[Back to 3 Linear Regression](#ch3)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="3.2"></a>3.2 Multiple Linear Regression
+
+Text
+
+[Back to 3 Linear Regression](#ch3)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="3.3"></a>3.3 Other Consideration in the Regression Model
+
+Text
+
+[Back to 3 Linear Regression](#ch3)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="3.4"></a>3.4 The Marketing Plan
+
+Text
+
+[Back to 3 Linear Regression](#ch3)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="3.5"></a>3.5 Comparison of Linear Regression with K-Nearest Neighbors
+
+Text
+
+[Back to 3 Linear Regression](#ch3)<br>
+[Back to Table of Contents](#toc)
 
 ## <a name="ch4"></a>4 Classification 
 
@@ -158,33 +229,99 @@ We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE
 [4.2 Why Not Linear Regression?](#4.2)<br>
 [4.3 Logistic Regression](#4.3)<br>
 [4.4 Linear Discriminant Analysis](#4.4)<br>
-[4.5 A Comparison of Classification Methods](#4.5)
+[4.5 A Comparison of Classification Methods](#4.5)<br>
+[Back to Table of Contents](#toc)
 
 ### <a name="4.1"></a>4.1 An Overview of Classification
+
+Text
+
+[Back to 4 Classification](#ch4)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="4.2"></a>4.2 Why Not Linear Regression?
+
+Text
+
+[Back to 4 Classification](#ch4)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="4.3"></a>4.3 Logistic Regression
+
+Text
+
+[Back to 4 Classification](#ch4)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="4.4"></a>4.4 Linear Discriminant Analysis
+
+Text
+
+[Back to 4 Classification](#ch4)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="4.5"></a>4.5 A Comparison of Classification Methods
+
+Text
+
+[Back to 4 Classification](#ch4)<br>
+[Back to Table of Contents](#toc)
 
 ## <a name="ch5"></a>5 Resampling Methods 
 
 [5.1 Cross-Validation](#5.1)<br>
-[5.2 The Bootstrap](#5.2)
+[5.2 The Bootstrap](#5.2)<br>
+[Back to Table of Contents](#toc)
 
 ### <a name="5.1"></a>5.1 Cross-Validation
+
+Text
+
+[Back to 5 Resampling Methods](#ch5)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="5.2"></a>5.2 The Bootstrap
+
+Text
+
+[Back to 5 Resampling Methods ](#ch5)<br>
+[Back to Table of Contents](#toc)
 
 ## <a name="ch6"></a>6 Linear Model Selection and Regularization
 
 [6.1 Subset Selection](#6.1)<br>
 [6.2 Shrinkage Methods](#6.2)<br>
 [6.3 Dimension Reduction Methods](#6.3)<br>
-[6.4 Considerations in High Dimensions](#6.4)
+[6.4 Considerations in High Dimensions](#6.4)<br>
+[Back to Table of Contents](#toc)
 
 ### <a name="6.1"></a>6.1 Subset Selection
+
+Text
+
+[Back to 6 Linear Model Selection and Regularization](#ch6)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="6.2"></a>6.2 Shrinkage Methods
+
+Text
+
+[Back to 6 Linear Model Selection and Regularization](#ch6)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="6.3"></a>6.3 Dimension Reduction Methods
+
+Text
+
+[Back to 6 Linear Model Selection and Regularization](#ch6)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="6.4"></a>6.4 Considerations in High Dimensions
+
+Text
+
+[Back to 6 Linear Model Selection and Regularization](#ch6)<br>
+[Back to Table of Contents](#toc)
 
 ## <a name="ch7"></a>7 Moving Beyond Linearity
 
@@ -195,14 +332,56 @@ We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE
 [7.5 Smoothing Splines](#7.5)<br>
 [7.6 Local Regression](#7.6)<br>
 [7.7 Generalized Additive Models](#7.7)
+[Back to Table of Contents](#toc)
 
 ### <a name="7.1"></a>7.1 Polynomial Regression
+
+Text
+
+[Back to 7 Moving Beyond Linearity](#ch7)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="7.2"></a>7.2 Step Functions
+
+Text
+
+[Back to 7 Moving Beyond Linearity](#ch7)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="7.3"></a>7.3 Basis Functions
+
+Text
+
+[Back to 7 Moving Beyond Linearity](#ch7)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="7.4"></a>7.4 Regression Splines
+
+Text
+
+[Back to 7 Moving Beyond Linearity](#ch7)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="7.5"></a>7.5 Smoothing Splines
+
+Text
+
+[Back to 7 Moving Beyond Linearity](#ch7)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="7.6"></a>7.6 Local Regression
+
+Text
+
+[Back to 7 Moving Beyond Linearity](#ch7)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="7.7"></a>7.7 Generalized Additive Models 
+
+Text
+
+[Back to 7 Moving Beyond Linearity](#ch7)<br>
+[Back to Table of Contents](#toc)
 
 ## <a name="ch8"></a>8 Tree-Based Methods
 
@@ -210,7 +389,18 @@ We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE
 [8.2 Bagging, Random Forests, Boosting](#8.2)
 
 ### <a name="8.1"></a>8.1 The Basics of Decision Trees
+
+Text
+
+[Back to 8 Tree-Based Methods](#ch8)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="8.2"></a>8.2 Bagging, Random Forests, Boosting
+
+Text
+
+[Back to 8 Tree-Based Methods](#ch8)<br>
+[Back to Table of Contents](#toc)
 
 ## <a name="ch9"></a>9 Support Vector Machines 
 
@@ -218,13 +408,43 @@ We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE
 [9.2 Support Vector Classifiers](#9.2)<br>
 [9.3 Support Vector Machines](#9.3)<br>
 [9.4 SVMs with More than Two Classes](9.4)<br>
-[9.5 Relationship to Logistic Regression](9.5)
+[9.5 Relationship to Logistic Regression](9.5)<br>
+[Back to Table of Contents](#toc)
 
 ### <a name="9.1"></a>9.1 Maximal Margin Classifier
+
+Text
+
+[Back to 9 Support Vector Machines](#ch9)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="9.2"></a>9.2 Support Vector Classifiers
+
+Text
+
+[Back to 9 Support Vector Machines](#ch9)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="9.3"></a>9.3 Support Vector Machines
+
+Text
+
+[Back to 9 Support Vector Machines](#ch9)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="9.4"></a>9.4 SVMs with More than Two Classes
+
+Text
+
+[Back to 9 Support Vector Machines](#ch9)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="9.5"></a>9.5 Relationship to Logistic Regression
+
+Text
+
+[Back to 9 Support Vector Machines](#ch9)<br>
+[Back to Table of Contents](#toc)
 
 ## <a name="ch10"></a>10 Unsupervised Learning 
 
@@ -233,5 +453,22 @@ We can measure **bias** with **standard error**, $\text{Var}(\hat{\mu})=\text{SE
 [10.3 Clustering Methods](#10.3)
 
 ### <a name="10.1"></a>10.1 The Challenge of Unsupervised Learning
+
+Text
+
+[Back to 10 Unsupervised Learning](#ch10)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="10.2"></a>10.2 Principal Components Analysis
+
+Text
+
+[Back to 10 Unsupervised Learning](#ch10)<br>
+[Back to Table of Contents](#toc)
+
 ### <a name="10.3"></a>10.3 Clustering Methods
+
+Text
+
+[Back to 10 Unsupervised Learning](#ch10)<br>
+[Back to Table of Contents](#toc)
