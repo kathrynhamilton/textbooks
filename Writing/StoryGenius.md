@@ -21,7 +21,7 @@ Lisa Cron
 &nbsp;&nbsp;&nbsp;&nbsp;[Chapter 11 - Building Your Blueprint: How to Keep Track of All the Moving Parts](#ch11)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Chapter 12 - Going Back to Move Forward: How to Harvest the Past to Set Up the Plot](#ch12)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Chapter 13 - Story Logic: Making Sure Each "What" Has a "Why"](#ch13)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[Chaper 14 - The Secret to Layering: Subplots, Storylines, and Secondary Characters](#ch14)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 14 - The Secret to Layering: Subplots, Storylines, and Secondary Characters](#ch14)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Chapter 15 - Writing Forward: Stories Grow in Spirals](#ch15)
 
 ### <a name="intro"></a>Introduction
@@ -214,7 +214,7 @@ Congratulations! You not only know when your novel starts but you also know why,
 [Chapter 11 - Building Your Blueprint: How to Keep Track of All the Moving Parts](#ch11)<br>
 [Chapter 12 - Going Back to Move Forward: How to Harvest the Past to Set Up the Plot](#ch12)<br>
 [Chapter 13 - Story Logic: Making Sure Each "What" Has a "Why"](#ch13)<br>
-[Chaper 14 - The Secret to Layering: Subplots, Storylines, and Secondary Characters](#ch14)<br>
+[Chapter 14 - The Secret to Layering: Subplots, Storylines, and Secondary Characters](#ch14)<br>
 [Chapter 15 - Writing Forward: Stories Grow in Spirals](#ch15)<br>
 [Back to Table of Contents](#toc)
 
@@ -253,7 +253,7 @@ Text
 [Back to Part Three - Creating an External Gauntlet to Spur Your Protagonist's Internal Struggle](#pt3)<br>
 [Back to Table of Contents](#toc)
 
-### <a name="ch14"></a>Chaper 14 - The Secret to Layering: Subplots, Storylines, and Secondary Characters
+### <a name="ch14"></a>Chapter 14 - The Secret to Layering: Subplots, Storylines, and Secondary Characters
 
 Text
 
