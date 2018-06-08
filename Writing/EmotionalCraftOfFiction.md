@@ -70,3 +70,6 @@ Rather than simply saying what the protagonist feels, **give a discourse on the 
 4. Add a unique detail that only the protagonist would see, in their own unique way
 5. Write the passage long enough so the reader has time to process and grasp the emotion
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTYxODQ4OTgzOF19
+-->
