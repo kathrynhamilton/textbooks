@@ -1,7 +1,6 @@
 # The Emotional Craft of Fiction 
 
 Donald Maass
-djfkskdlfgskjdfg
 
 ## One - The Emotional Craft of Fiction
 
@@ -72,5 +71,5 @@ Rather than simply saying what the protagonist feels, **give a discourse on the 
 5. Write the passage long enough so the reader has time to process and grasp the emotion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTgzMjU3NywxNjE4NDg5ODM4XX0=
+eyJoaXN0b3J5IjpbMTYxODQ4OTgzOCwxNjE4NDg5ODM4XX0=
 -->
