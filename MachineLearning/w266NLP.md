@@ -202,7 +202,31 @@ A faster algorithm, O(|V|m^2), and the one that is most commonly used in practic
 4. Repeat (2), (3) until all words are in a cluster
 5. Repeat (3) until all clusters merge and a heirarchy is formed
 
+Clusters can help make use of large, unlabeled datasets and understand rare words. However, clustering representation is not the best for NLP, for example because each word can only appear in one cluster. We can correct this with a co-occurrence matrix: a matrix with both a column and a row for each word in the vocabulary, where entries are a count of how many times a pair of words appears in the same sentence. We can also use Pearson correlations instead of counts, setting negative numbers to zero, to reduce the impact of very common words.
 
+Co-occurence matrices are sparse, so we represent them more densely using Singular Value Decomposition:
+$X_{n,m} = U_{n,r} S_{r,r} V^T_{r,m}$
+
+<p align="center">
+  <img src="https://github.com/kathrynhamilton/textbooks/blob/master/MachineLearning/images/svd.png" width="500">
+</p>
+
+We choose $r$ to an appropriate number of components and then we can use columns of $U$ as word vectors. We can plot these and use them to make word clusters. SVD can be quite computationally expensive, O(n^3) as the co-occurence matrix needs to be inverted.
+
+Choose co-occurence count window: smaller windows capture more syntax, larger windows capture more semantics. LSA uses whole documents. Typically, window is [-5,5] words.
+
+Word2Vec architectures:
+
+* CBOW (Continuous Bag of Words)
+* Skip-gram
+
+<p align="center">
+  <img src="https://github.com/kathrynhamilton/textbooks/blob/master/MachineLearning/images/cbowsg.png" width="500">
+</p>
+
+Skip-gram maximizes the probability of context words in a window of length $m$ given a center word. The input words predicts an output word when the product of their vector representations is large. Skip-gram is better at capturing semantic relationships.
+
+CBOW uses the average vector representation of context words to predict the center word. CBOW is better are capturing syntactic relationships.
 
 ### Readings
 
