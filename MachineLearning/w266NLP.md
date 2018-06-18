@@ -232,6 +232,48 @@ CBOW uses the average vector representation of context words to predict the cent
 
 ## 5 - Language Modelling II
 
+The meaning of a word can be summarized with statistical properties of context (words around it), for example by using Brown's algorithm, co-occurence matrices, or word-2-vec.
+
+What can we do with word vectors?
+
+Classification
+
+We have: a training dataset containing samples $(xi, yi)$ of inputs and labels for $i$ in $1,\dots,N$
+What if: we make the label the next word(s)?
+
+Softmax (Logistic Regression)
+
+Creates linear boundaries, which is good for little data, but not good for large amounts of data.
+
+$p(y|x) = \frac{\exp{W_y*x}}{\sum_c \exp{W_c*x}}$ for classes $y, c$ in $1,...,C$
+Loss function over the dataset: $J(\theta) = - \frac{1}{N} \sum_i \log \frac{e^{W_{y_i}x}}{\sum_i e^{W_{c}x}+\lambda \sum \theta_k^2$ where $\lambda \sum \theta_k^2$ is a regularization term to reduce overfitting, and $\theta$ is an entry in $W$.
+
+Neural Networks
+
+Neural networks can learn complex, non-linear decision boundaries.
+
+A single neuron computes $h_{w,b}(x) = f(Wx+b), where the neuron will fire or not fire given the result of the activation function $f$. 
+
+<p align="center">
+  <img src="https://github.com/kathrynhamilton/textbooks/blob/master/MachineLearning/images/neuron.png" width="500">
+</p>
+
+A neural network runs many logistic regressions (layers) at the same time, where in each layer, $a=f(Wx+b)$.
+
+<p align="center">
+  <img src="https://github.com/kathrynhamilton/textbooks/blob/master/MachineLearning/images/neuralnetwork.png" width="500">
+</p>
+
+Rather than using a step function as the activation function, we typically use a sigmoid function (because it's continuous), $f(z) = frac{1}{1+e^{-z}}$. Alternatively, $tanh(x) = 2\sigma(2x)-1$ and $reLU(x)=max(0,x)$ are popular.
+
+Without non-linear functions, deep neural networks can only learn linear tansforms (ie. linear algebra because all that happens is combinations of matrices). 
+
+Here is an example feedforward neural network using a vocabulary of 8 words, and resulting in a 4x1 matrix listing the probabilities of *Paris* being in each of the four classes (PER, POC, PRG, NON).
+
+<p align="center">
+  <img src="https://github.com/kathrynhamilton/textbooks/blob/master/MachineLearning/images/feedforward.png" width="500">
+</p>
+
 ### Course Content
 
 ### Readings
