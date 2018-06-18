@@ -291,7 +291,27 @@ Consider a classification problem where the correct distribution over four class
 
 $D_{KL}(p||q)$, KL divergence, is a nonsymmetric measure of the difference between p and q.
 
+Language Models
 
+For n-gram language models using lots of data and smoothing techniques, 5-gram models were nearly impossible to beat. However, there were still problems with long-range dependencies and sparsity.
+
+With neural network language models, we predict the current word given the previous k words. We use a hidden layer to reduce the dimensionality of the context. We need to make everything efficient enough to train with lots of data.
+
+Dimensions:
+* V - vocabulary size
+* M - embedding size
+* N - window size (words of context)
+* H - hidden units 
+
+Parameters
+* Embeddings C: [V,M]
+* Hidden layer W1: [NxM,H]
+* Output layer: W2:[H,V]
+
+Heirarchical Softmax
+
+Form a tree in which every leaf is a word in the vocabulary. $p(w)$ is a product of the probability of the word's parents in the tree.
+At each node we can evaluate the probability of branching left or right given the hidden state h. Heirarchical softmax is mostly used to speed up training.
 
 ### Course Content
 
