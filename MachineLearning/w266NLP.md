@@ -246,7 +246,7 @@ Softmax (Logistic Regression)
 Creates linear boundaries, which is good for little data, but not good for large amounts of data.
 
 $p(y|x) = \frac{\exp{W_y*x}}{\sum_c \exp{W_c*x}}$ for classes $y, c$ in $1,...,C$
-Loss function over the dataset: $J(\theta) = - \frac{1}{N} \sum_i \log \frac{e^{W_{y_i}x}}{\sum_i e^{W_{c}x}+\lambda \sum \theta_k^2$ where $\lambda \sum \theta_k^2$ is a regularization term to reduce overfitting, and $\theta$ is an entry in $W$.
+Loss function over the dataset: $J(\theta) = - \frac{1}{N} \sum_i \log \frac{e^{W_{y_i}x}}{\sum_i e^{W_{c}x}+\lambda \sum \theta_k^2$ where $\lambda \sum \theta_k^2$ is a regularization term to reduce overfitting, and $\theta$ is a parameter of the model, aka an entry in $W$.
 
 Neural Networks
 
@@ -261,7 +261,7 @@ A single neuron computes $h_{w,b}(x) = f(Wx+b), where the neuron will fire or no
 A neural network runs many logistic regressions (layers) at the same time, where in each layer, $a=f(Wx+b)$.
 
 <p align="center">
-  <img src="https://github.com/kathrynhamilton/textbooks/blob/master/MachineLearning/images/neuralnetwork.png" width="500">
+  <img src="https://github.com/kathrynhamilton/textbooks/blob/master/MachineLearning/images/neuralnetwork.png" width="350">
 </p>
 
 Rather than using a step function as the activation function, we typically use a sigmoid function (because it's continuous), $f(z) = frac{1}{1+e^{-z}}$. Alternatively, $tanh(x) = 2\sigma(2x)-1$ and $reLU(x)=max(0,x)$ are popular.
@@ -273,6 +273,25 @@ Here is an example feedforward neural network using a vocabulary of 8 words, and
 <p align="center">
   <img src="https://github.com/kathrynhamilton/textbooks/blob/master/MachineLearning/images/feedforward.png" width="500">
 </p>
+
+Training a neural network is a an extension of training logistic regression:
+
+1. Initialize Parameters
+2. Run model on a set of data to acquire output
+3. Calculate error
+4. Back propogate error to update parameters
+5. Repeat until error is sufficiently small
+
+We want to maximize the log-likelihood of parameters (ar alternatively as a cost function, minimize the negative log-likelihood).
+In neural network training, cross-entropy loss (from information theory) is the same as log-likelihood loss (from probability theory).
+
+Cross-entropy
+
+Consider a classification problem where the correct distribution over four classes is [0,0,1,0] and the predicted disrribution is [0.1,0.4,0.3,0.2]. Cross entropy is $H(p,q)=-\sum_c p(c) \log q(c)=H(p)+D_{KL}(p||q)$.
+
+$D_{KL}(p||q)$, KL divergence, is a nonsymmetric measure of the difference between p and q.
+
+
 
 ### Course Content
 
